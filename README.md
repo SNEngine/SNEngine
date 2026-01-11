@@ -2,7 +2,7 @@
 
 SNEngine is a visual novel engine built for Unity, designed to help developers create interactive visual novels and story-driven games. It provides a comprehensive set of systems and tools to handle dialogue, character management, backgrounds, save/load functionality, and more.
 
-![[images/promo.png]]
+![SNEngine Promo](images/promo.png)
 
 ## Features
 
