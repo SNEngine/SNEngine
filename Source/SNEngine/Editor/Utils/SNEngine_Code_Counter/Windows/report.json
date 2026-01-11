@@ -1,0 +1,2995 @@
+{
+  "summary": {
+    "total_files": 747,
+    "total_lines": 114218,
+    "average_lines": 153,
+    "total_size_bytes": 4209545,
+    "total_size_human": "4.01 MB"
+  },
+  "details": [
+    {
+      "file": "AnimationBehaviourType.cs",
+      "lines": 8
+    },
+    {
+      "file": "AnimationBehaviourHelper.cs",
+      "lines": 10
+    },
+    {
+      "file": "AnimationInOutNode.cs",
+      "lines": 30
+    },
+    {
+      "file": "AnimationNode.cs",
+      "lines": 95
+    },
+    {
+      "file": "ChangeColorNode.cs",
+      "lines": 51
+    },
+    {
+      "file": "Direction.cs",
+      "lines": 10
+    },
+    {
+      "file": "DissolveNode.cs",
+      "lines": 43
+    },
+    {
+      "file": "FlipType.cs",
+      "lines": 10
+    },
+    {
+      "file": "IBlackAndWhiteSupport.cs",
+      "lines": 12
+    },
+    {
+      "file": "ICeliable.cs",
+      "lines": 12
+    },
+    {
+      "file": "IChangeableColor.cs",
+      "lines": 11
+    },
+    {
+      "file": "IDissolveable.cs",
+      "lines": 11
+    },
+    {
+      "file": "IFadeable.cs",
+      "lines": 12
+    },
+    {
+      "file": "IFlipable.cs",
+      "lines": 7
+    },
+    {
+      "file": "IIlluminatiionable.cs",
+      "lines": 12
+    },
+    {
+      "file": "IMovableByDirection.cs",
+      "lines": 10
+    },
+    {
+      "file": "IMovableByVector.cs",
+      "lines": 11
+    },
+    {
+      "file": "IMovableByX.cs",
+      "lines": 11
+    },
+    {
+      "file": "IRotateable.cs",
+      "lines": 11
+    },
+    {
+      "file": "IScaleable.cs",
+      "lines": 11
+    },
+    {
+      "file": "ISolidable.cs",
+      "lines": 12
+    },
+    {
+      "file": "IStarWipeable.cs",
+      "lines": 12
+    },
+    {
+      "file": "IVignettable.cs",
+      "lines": 12
+    },
+    {
+      "file": "SetFlipNode.cs",
+      "lines": 38
+    },
+    {
+      "file": "TextEffect.cs",
+      "lines": 37
+    },
+    {
+      "file": "CharsReadTextEffect.cs",
+      "lines": 393
+    },
+    {
+      "file": "WordWobble.cs",
+      "lines": 80
+    },
+    {
+      "file": "EmotionFieldAttribute.cs",
+      "lines": 8
+    },
+    {
+      "file": "LeftToggleAttribute.cs",
+      "lines": 8
+    },
+    {
+      "file": "StreamingVideoPathAttribute.cs",
+      "lines": 14
+    },
+    {
+      "file": "AudioNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "AudioNodeInteraction.cs",
+      "lines": 23
+    },
+    {
+      "file": "AudioNodeInteractionAsync.cs",
+      "lines": 26
+    },
+    {
+      "file": "AudioObject.cs",
+      "lines": 221
+    },
+    {
+      "file": "AudioSourceController.cs",
+      "lines": 109
+    },
+    {
+      "file": "AudioType.cs",
+      "lines": 9
+    },
+    {
+      "file": "CreateAudioNode.cs",
+      "lines": 23
+    },
+    {
+      "file": "FadeInSoundNode.cs",
+      "lines": 19
+    },
+    {
+      "file": "FadeOutSoundNode.cs",
+      "lines": 16
+    },
+    {
+      "file": "IAudioObject.cs",
+      "lines": 42
+    },
+    {
+      "file": "AudioData.cs",
+      "lines": 13
+    },
+    {
+      "file": "ClearPlaylistMusicNode.cs",
+      "lines": 17
+    },
+    {
+      "file": "IMusicPlayer.cs",
+      "lines": 23
+    },
+    {
+      "file": "MusicInteractionNode.cs",
+      "lines": 17
+    },
+    {
+      "file": "MusicInteractionNodeAsync.cs",
+      "lines": 18
+    },
+    {
+      "file": "PlayMusicNode.cs",
+      "lines": 17
+    },
+    {
+      "file": "MusicPlayer.cs",
+      "lines": 206
+    },
+    {
+      "file": "SetMusicLoopingNode.cs",
+      "lines": 15
+    },
+    {
+      "file": "StopMusicNode.cs",
+      "lines": 16
+    },
+    {
+      "file": "SetPlaylistMusicNode.cs",
+      "lines": 20
+    },
+    {
+      "file": "PauseSoundNode.cs",
+      "lines": 7
+    },
+    {
+      "file": "PlayDelayedSoundNode.cs",
+      "lines": 16
+    },
+    {
+      "file": "PlayScheduledSoundNode.cs",
+      "lines": 15
+    },
+    {
+      "file": "PlaySoundNode.cs",
+      "lines": 39
+    },
+    {
+      "file": "PlaySoundOneShotNode.cs",
+      "lines": 20
+    },
+    {
+      "file": "Set3DSettingsNode.cs",
+      "lines": 16
+    },
+    {
+      "file": "SetDopplerLevelSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetLoopSoundNode.cs",
+      "lines": 15
+    },
+    {
+      "file": "SetMaxDistanceSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetMinDistanceSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetMixerSoundNode.cs",
+      "lines": 16
+    },
+    {
+      "file": "SetPanSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetPitchSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetPositionSoundNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "SetPrioritySoundNode.cs",
+      "lines": 13
+    },
+    {
+      "file": "SetReverbMixSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetRolloffModeSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetSpatialBlendSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetSpreadSoundNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "StopSoundNode.cs",
+      "lines": 7
+    },
+    {
+      "file": "FillSlider.cs",
+      "lines": 158
+    },
+    {
+      "file": "ISettingsWindow.cs",
+      "lines": 6
+    },
+    {
+      "file": "SettingsWindow.cs",
+      "lines": 82
+    },
+    {
+      "file": "UnPauseSoundNode.cs",
+      "lines": 7
+    },
+    {
+      "file": "AsyncBackgroundNode.cs",
+      "lines": 38
+    },
+    {
+      "file": "AsyncBackgroundInOutNode.cs",
+      "lines": 45
+    },
+    {
+      "file": "SetBlackAndWhiteBackgroundInOutNode.cs",
+      "lines": 47
+    },
+    {
+      "file": "SetBlackAndWhiteBackgroundNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "CeliaBackgroundInOutNode.cs",
+      "lines": 46
+    },
+    {
+      "file": "CeliaBackgroundNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "DissolveBackgroundNode.cs",
+      "lines": 47
+    },
+    {
+      "file": "DissolveBackgroundNodeBase.cs",
+      "lines": 60
+    },
+    {
+      "file": "IlluminationBackgroundInOutNode.cs",
+      "lines": 47
+    },
+    {
+      "file": "IlluminationBackgroundNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "LookAtBackgroundNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "MoveBackgroundLocalNode.cs",
+      "lines": 52
+    },
+    {
+      "file": "MoveBackgroundNode.cs",
+      "lines": 50
+    },
+    {
+      "file": "MoveBackgroundOnPathNode.cs",
+      "lines": 35
+    },
+    {
+      "file": "PunchBackgroundPositionNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "PunchBackgroundRotationNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "PunchBackgroundScaleNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "RotateBackgroundLocalNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "RotateBackgroundNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "ScaleBackgroundNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "SetBackgroundBrightnessNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "SetBackgroundColourNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "SetBackgroundLoopingMoveNode.cs",
+      "lines": 49
+    },
+    {
+      "file": "SetBackgroundLoopingRotateNode.cs",
+      "lines": 28
+    },
+    {
+      "file": "SetBackgroundLoopingScaleNode.cs",
+      "lines": 28
+    },
+    {
+      "file": "SetBackgroundTransperentNode.cs",
+      "lines": 28
+    },
+    {
+      "file": "ShakeBackgroundPositionNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "ShakeBackgroundRotationNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "ShakeBackgroundScaleNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "SolidBackgroundInOutNode.cs",
+      "lines": 47
+    },
+    {
+      "file": "SolidBackgroundNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "StarWipeBackgroundNode.cs",
+      "lines": 81
+    },
+    {
+      "file": "VignetteBackgroundNode.cs",
+      "lines": 82
+    },
+    {
+      "file": "ClearBackgroundNode.cs",
+      "lines": 15
+    },
+    {
+      "file": "BackgroundRenderer.cs",
+      "lines": 270
+    },
+    {
+      "file": "IBackgroundRenderer.cs",
+      "lines": 42
+    },
+    {
+      "file": "ScreenBackgroundRender.cs",
+      "lines": 25
+    },
+    {
+      "file": "SetBackgroundNode.cs",
+      "lines": 35
+    },
+    {
+      "file": "DialogueGraph.cs",
+      "lines": 44
+    },
+    {
+      "file": "IContainerVaritables.cs",
+      "lines": 10
+    },
+    {
+      "file": "KeyValueElement.cs",
+      "lines": 27
+    },
+    {
+      "file": "VaritableContainerGraph.cs",
+      "lines": 30
+    },
+    {
+      "file": "KeyValueList.cs",
+      "lines": 148
+    },
+    {
+      "file": "SetBlackAndWhiteCharacterInOutNode.cs",
+      "lines": 45
+    },
+    {
+      "file": "SetBlackAndWhiteCharacterNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "CeliaCharacterInOutNode.cs",
+      "lines": 46
+    },
+    {
+      "file": "CeliaCharacterNode.cs",
+      "lines": 56
+    },
+    {
+      "file": "DissolveCharacterNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "FadeCharacterInOutNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "FadeCharacterNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "IlluminationCharacterInOutNode.cs",
+      "lines": 45
+    },
+    {
+      "file": "IlluminationCharacterNode.cs",
+      "lines": 57
+    },
+    {
+      "file": "MoveCharacterNode.cs",
+      "lines": 60
+    },
+    {
+      "file": "RotateCharacterNode.cs",
+      "lines": 38
+    },
+    {
+      "file": "ScaleCharacterNode.cs",
+      "lines": 36
+    },
+    {
+      "file": "SetColorCharacterNode.cs",
+      "lines": 24
+    },
+    {
+      "file": "SolidCharacterInOutNode.cs",
+      "lines": 45
+    },
+    {
+      "file": "SolidCharacterNode.cs",
+      "lines": 56
+    },
+    {
+      "file": "AsyncCharacterInOutNode.cs",
+      "lines": 8
+    },
+    {
+      "file": "AsyncCharacterNode.cs",
+      "lines": 8
+    },
+    {
+      "file": "Character.cs",
+      "lines": 87
+    },
+    {
+      "file": "CharacterDirection.cs",
+      "lines": 9
+    },
+    {
+      "file": "CharacterNode.cs",
+      "lines": 19
+    },
+    {
+      "file": "DissolveCharacterNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "CharacterRenderer.cs",
+      "lines": 378
+    },
+    {
+      "file": "HideCharacterNode.cs",
+      "lines": 19
+    },
+    {
+      "file": "Emotion.cs",
+      "lines": 30
+    },
+    {
+      "file": "ICharacterRenderer.cs",
+      "lines": 18
+    },
+    {
+      "file": "MoveCharacterByDirectionScreenNode.cs",
+      "lines": 26
+    },
+    {
+      "file": "SetFlipCharacterNode.cs",
+      "lines": 20
+    },
+    {
+      "file": "ShowCharacterNode.cs",
+      "lines": 22
+    },
+    {
+      "file": "ConfirmationWindow.cs",
+      "lines": 71
+    },
+    {
+      "file": "ConfirmationWindowButtonType.cs",
+      "lines": 16
+    },
+    {
+      "file": "ConfirmationWindowResult.cs",
+      "lines": 15
+    },
+    {
+      "file": "IConfirmationWindow.cs",
+      "lines": 11
+    },
+    {
+      "file": "NovelGameDebug.cs",
+      "lines": 49
+    },
+    {
+      "file": "DialogOnScreenNode.cs",
+      "lines": 20
+    },
+    {
+      "file": "DialogOnScreenWindow.cs",
+      "lines": 105
+    },
+    {
+      "file": "IDialogOnScreenNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "IDialogOnScreenWindow.cs",
+      "lines": 9
+    },
+    {
+      "file": "DialogNode.cs",
+      "lines": 31
+    },
+    {
+      "file": "DialogWindow.cs",
+      "lines": 86
+    },
+    {
+      "file": "HideDiaklogWindowNode.cs",
+      "lines": 15
+    },
+    {
+      "file": "IDialogue.cs",
+      "lines": 20
+    },
+    {
+      "file": "IDialogNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "IDialogWindow.cs",
+      "lines": 9
+    },
+    {
+      "file": "IOldRenderDialogue.cs",
+      "lines": 12
+    },
+    {
+      "file": "IPrinterTalkingCharacter.cs",
+      "lines": 11
+    },
+    {
+      "file": "OldRenderDialogue.cs",
+      "lines": 105
+    },
+    {
+      "file": "AsyncNodeCreator.cs",
+      "lines": 37
+    },
+    {
+      "file": "AudioClipNodeEditor.cs",
+      "lines": 70
+    },
+    {
+      "file": "AudioClipSelectorWindow.cs",
+      "lines": 142
+    },
+    {
+      "file": "AutoIconAssigner.cs",
+      "lines": 48
+    },
+    {
+      "file": "BackgroundImporterWindow.cs",
+      "lines": 200
+    },
+    {
+      "file": "BaseAssetLibraryEditor.cs",
+      "lines": 89
+    },
+    {
+      "file": "BaseCreator.cs",
+      "lines": 53
+    },
+    {
+      "file": "BaseNodeInteractionCreator.cs",
+      "lines": 31
+    },
+    {
+      "file": "BaseRenameWindow.cs",
+      "lines": 154
+    },
+    {
+      "file": "BaseToolLauncher.cs",
+      "lines": 59
+    },
+    {
+      "file": "BuildPackageMenu.cs",
+      "lines": 101
+    },
+    {
+      "file": "CeliaCharacterInOutNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "CeliaCharacterNodeEditor.cs",
+      "lines": 57
+    },
+    {
+      "file": "CharacterEditor.cs",
+      "lines": 194
+    },
+    {
+      "file": "CharacterNodeEditor.cs",
+      "lines": 45
+    },
+    {
+      "file": "CharacterCreatorWindow.cs",
+      "lines": 695
+    },
+    {
+      "file": "CharacterSelectorWindow.cs",
+      "lines": 167
+    },
+    {
+      "file": "CodeCounterLauncher.cs",
+      "lines": 11
+    },
+    {
+      "file": "CodeCounterWindow.cs",
+      "lines": 95
+    },
+    {
+      "file": "DialogNodeEditor.cs",
+      "lines": 78
+    },
+    {
+      "file": "DialogOnScreenNodeEdito.cs",
+      "lines": 59
+    },
+    {
+      "file": "DialogueCreatorEditor.cs",
+      "lines": 216
+    },
+    {
+      "file": "DialogueDuplicateWindow.cs",
+      "lines": 64
+    },
+    {
+      "file": "DialogueGraphEditor.cs",
+      "lines": 101
+    },
+    {
+      "file": "DialogueGraphEditorInspector.cs",
+      "lines": 143
+    },
+    {
+      "file": "DialogueManagerWindow.cs",
+      "lines": 216
+    },
+    {
+      "file": "DialogueRenameWindow.cs",
+      "lines": 29
+    },
+    {
+      "file": "DialogueSelectorWindow.cs",
+      "lines": 175
+    },
+    {
+      "file": "DissolveCharacterNodeEditor.cs",
+      "lines": 54
+    },
+    {
+      "file": "EditorWindowExtensions.cs",
+      "lines": 18
+    },
+    {
+      "file": "EmotionDrawer.cs",
+      "lines": 62
+    },
+    {
+      "file": "EmotionFieldPropertyDrawer.cs",
+      "lines": 88
+    },
+    {
+      "file": "EmotionSelectorWindow.cs",
+      "lines": 173
+    },
+    {
+      "file": "ExecutionOrderManager.cs",
+      "lines": 31
+    },
+    {
+      "file": "ExitNodeEditor.cs",
+      "lines": 67
+    },
+    {
+      "file": "FadeCharacterInOutNodeEditor.cs",
+      "lines": 54
+    },
+    {
+      "file": "FadeCharacterNodeEditor.cs",
+      "lines": 54
+    },
+    {
+      "file": "GetGlobalVaritableNodeEditor.cs",
+      "lines": 39
+    },
+    {
+      "file": "GlobalVaritablesMenu.cs",
+      "lines": 26
+    },
+    {
+      "file": "GroupCallsNodeEditor.cs",
+      "lines": 92
+    },
+    {
+      "file": "IfNodeEditor.cs",
+      "lines": 115
+    },
+    {
+      "file": "IlluminationCharacterInOutNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "IlluminationCharacterNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "JumpToDialogueNodeEditor.cs",
+      "lines": 84
+    },
+    {
+      "file": "GeneratorBlankLanguage.cs",
+      "lines": 26
+    },
+    {
+      "file": "GeneratorENLanguage.cs",
+      "lines": 26
+    },
+    {
+      "file": "GeneratorGERLanguage.cs",
+      "lines": 26
+    },
+    {
+      "file": "GeneratorLanguage.cs",
+      "lines": 48
+    },
+    {
+      "file": "GeneratorRULanguage.cs",
+      "lines": 26
+    },
+    {
+      "file": "LanguageEditorWorker.cs",
+      "lines": 11
+    },
+    {
+      "file": "LanguageServiceEditor.cs",
+      "lines": 79
+    },
+    {
+      "file": "LanguageWorkerResult.cs",
+      "lines": 8
+    },
+    {
+      "file": "LanguageWorkerState.cs",
+      "lines": 8
+    },
+    {
+      "file": "AvailableLanguagesManifestWorkerEditor.cs",
+      "lines": 74
+    },
+    {
+      "file": "CharactersLanguageWorkerEditor.cs",
+      "lines": 123
+    },
+    {
+      "file": "CreateRootLanguageFolberWorkerEditor.cs",
+      "lines": 56
+    },
+    {
+      "file": "DialoguesLanguageWorkerEditor.cs",
+      "lines": 113
+    },
+    {
+      "file": "FlagsLanguageWorkerEditor.cs",
+      "lines": 70
+    },
+    {
+      "file": "LanguageManifestWorkerEditor.cs",
+      "lines": 90
+    },
+    {
+      "file": "MetaDataLanguageWorkerEditor.cs",
+      "lines": 94
+    },
+    {
+      "file": "UITemplateLanguageWorkerEditor.cs",
+      "lines": 163
+    },
+    {
+      "file": "MaterialNodeEditor.cs",
+      "lines": 68
+    },
+    {
+      "file": "MessageOnScreenNodeEditor.cs",
+      "lines": 24
+    },
+    {
+      "file": "MaterialSelectorWindow.cs",
+      "lines": 144
+    },
+    {
+      "file": "NodeSearchWindow.cs",
+      "lines": 244
+    },
+    {
+      "file": "NovelCounterLauncher.cs",
+      "lines": 11
+    },
+    {
+      "file": "NodeSelectorWindow.cs",
+      "lines": 210
+    },
+    {
+      "file": "PlaySoundNodeEditor.cs",
+      "lines": 80
+    },
+    {
+      "file": "NovelCounterWindow.cs",
+      "lines": 93
+    },
+    {
+      "file": "PlaySoundOneShotNodeEditor.cs",
+      "lines": 76
+    },
+    {
+      "file": "PlayVideoAsyncNodeEditor.cs",
+      "lines": 95
+    },
+    {
+      "file": "PlayVideoNodeEditor.cs",
+      "lines": 94
+    },
+    {
+      "file": "PrefabNodeEditor.cs",
+      "lines": 77
+    },
+    {
+      "file": "PrefabSelectorWindow.cs",
+      "lines": 199
+    },
+    {
+      "file": "RepositoryCreator.cs",
+      "lines": 26
+    },
+    {
+      "file": "ServiceCreator.cs",
+      "lines": 32
+    },
+    {
+      "file": "SetAudioClipNodeEditor.cs",
+      "lines": 73
+    },
+    {
+      "file": "SetBackgroundNodeEditor.cs",
+      "lines": 75
+    },
+    {
+      "file": "SetBlackAndWhiteCharacterInOutNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "SetBlackAndWhiteCharacterNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "SetColorCharacterNodeEditor.cs",
+      "lines": 56
+    },
+    {
+      "file": "SetFlipCharacterNodeEditor.cs",
+      "lines": 54
+    },
+    {
+      "file": "SetMaterialNodeEditor.cs",
+      "lines": 76
+    },
+    {
+      "file": "SetPlaylistMusicNodeEditor.cs",
+      "lines": 125
+    },
+    {
+      "file": "SetPrefabNodeEditor.cs",
+      "lines": 75
+    },
+    {
+      "file": "SetTexture2DNodeEditor.cs",
+      "lines": 72
+    },
+    {
+      "file": "SetTextureNodeEditor.cs",
+      "lines": 99
+    },
+    {
+      "file": "ShowSpriteObjectNodeEditor.cs",
+      "lines": 83
+    },
+    {
+      "file": "ShowVariantsNodeEditor.cs",
+      "lines": 137
+    },
+    {
+      "file": "SNEngineSettingsWindow.cs",
+      "lines": 149
+    },
+    {
+      "file": "SNEngineSetupMenu.cs",
+      "lines": 16
+    },
+    {
+      "file": "SnilEditorLauncher.cs",
+      "lines": 12
+    },
+    {
+      "file": "DialogueManagerSNILExtension.cs",
+      "lines": 40
+    },
+    {
+      "file": "SNILFunctionParser.cs",
+      "lines": 119
+    },
+    {
+      "file": "SNILGraphCreator.cs",
+      "lines": 76
+    },
+    {
+      "file": "SNILScriptImporter.cs",
+      "lines": 118
+    },
+    {
+      "file": "SNILScriptProcessor.cs",
+      "lines": 241
+    },
+    {
+      "file": "SNILScriptValidator.cs",
+      "lines": 148
+    },
+    {
+      "file": "BaseInstructionHandler.cs",
+      "lines": 20
+    },
+    {
+      "file": "BlockHandlerResult.cs",
+      "lines": 10
+    },
+    {
+      "file": "ArithmeticInstructionHandler.cs",
+      "lines": 402
+    },
+    {
+      "file": "CallInstructionHandler.cs",
+      "lines": 149
+    },
+    {
+      "file": "DisplayedInstructionHandler.cs",
+      "lines": 194
+    },
+    {
+      "file": "EndInstructionHandler.cs",
+      "lines": 76
+    },
+    {
+      "file": "FunctionBodyCreator.cs",
+      "lines": 56
+    },
+    {
+      "file": "FunctionDefinitionInstructionHandler.cs",
+      "lines": 20
+    },
+    {
+      "file": "FunctionEndInstructionHandler.cs",
+      "lines": 23
+    },
+    {
+      "file": "IBlockInstructionHandler.cs",
+      "lines": 15
+    },
+    {
+      "file": "GenericNodeInstructionHandler.cs",
+      "lines": 194
+    },
+    {
+      "file": "IInstructionHandler.cs",
+      "lines": 51
+    },
+    {
+      "file": "InstructionHandlerManager.cs",
+      "lines": 80
+    },
+    {
+      "file": "IfShowVariantInstructionHandler.cs",
+      "lines": 364
+    },
+    {
+      "file": "NameInstructionHandler.cs",
+      "lines": 51
+    },
+    {
+      "file": "NodeConnectionUtility.cs",
+      "lines": 65
+    },
+    {
+      "file": "StartInstructionHandler.cs",
+      "lines": 58
+    },
+    {
+      "file": "SetVariableInstructionHandler.cs",
+      "lines": 336
+    },
+    {
+      "file": "SwitchShowVariantInstructionHandler.cs",
+      "lines": 385
+    },
+    {
+      "file": "NodeConnector.cs",
+      "lines": 81
+    },
+    {
+      "file": "NodeCreator.cs",
+      "lines": 119
+    },
+    {
+      "file": "NodeFormatter.cs",
+      "lines": 48
+    },
+    {
+      "file": "NodePositioner.cs",
+      "lines": 90
+    },
+    {
+      "file": "SNILMultiScriptParser.cs",
+      "lines": 52
+    },
+    {
+      "file": "SNILResourceFinder.cs",
+      "lines": 144
+    },
+    {
+      "file": "SNILBlockParser.cs",
+      "lines": 263
+    },
+    {
+      "file": "SNILCompiler.cs",
+      "lines": 152
+    },
+    {
+      "file": "SNILDebug.cs",
+      "lines": 49
+    },
+    {
+      "file": "SNILDocumentationGenerator.cs",
+      "lines": 92
+    },
+    {
+      "file": "SNILFolderImporter.cs",
+      "lines": 135
+    },
+    {
+      "file": "SNILImportWindow.cs",
+      "lines": 114
+    },
+    {
+      "file": "SNILInstructionBasedCompiler.cs",
+      "lines": 174
+    },
+    {
+      "file": "SNILNodeCreator.cs",
+      "lines": 40
+    },
+    {
+      "file": "SNILPostProcessor.cs",
+      "lines": 165
+    },
+    {
+      "file": "SNILSyntaxDataGenerator.cs",
+      "lines": 77
+    },
+    {
+      "file": "TestSetVariableInstruction.cs",
+      "lines": 41
+    },
+    {
+      "file": "SNILTemplateManager.cs",
+      "lines": 77
+    },
+    {
+      "file": "SNILParameterApplier.cs",
+      "lines": 327
+    },
+    {
+      "file": "SNILTemplateMatcher.cs",
+      "lines": 48
+    },
+    {
+      "file": "SNILTypeResolver.cs",
+      "lines": 39
+    },
+    {
+      "file": "ArithmeticInstructionValidator.cs",
+      "lines": 154
+    },
+    {
+      "file": "BaseInstructionValidator.cs",
+      "lines": 20
+    },
+    {
+      "file": "EmptyFileValidator.cs",
+      "lines": 25
+    },
+    {
+      "file": "FunctionValidator.cs",
+      "lines": 84
+    },
+    {
+      "file": "IInstructionValidator.cs",
+      "lines": 38
+    },
+    {
+      "file": "InstructionValidatorManager.cs",
+      "lines": 73
+    },
+    {
+      "file": "InstructionValidator.cs",
+      "lines": 462
+    },
+    {
+      "file": "NameDirectiveValidator.cs",
+      "lines": 83
+    },
+    {
+      "file": "ScriptLineExtractor.cs",
+      "lines": 39
+    },
+    {
+      "file": "SetVariableInstructionValidator.cs",
+      "lines": 59
+    },
+    {
+      "file": "SNILIfShowVariantValidator.cs",
+      "lines": 160
+    },
+    {
+      "file": "SNILSwitchShowVariantValidator.cs",
+      "lines": 157
+    },
+    {
+      "file": "SNILSyntaxValidator.cs",
+      "lines": 94
+    },
+    {
+      "file": "SNILValidator.cs",
+      "lines": 9
+    },
+    {
+      "file": "TemplateBasedInstructionValidator.cs",
+      "lines": 56
+    },
+    {
+      "file": "ClearBackgroundNodeWorker.cs",
+      "lines": 14
+    },
+    {
+      "file": "CompareIntegersNodeWorker.cs",
+      "lines": 78
+    },
+    {
+      "file": "DebugNodeWorker.cs",
+      "lines": 89
+    },
+    {
+      "file": "DialogNodeWorker.cs",
+      "lines": 75
+    },
+    {
+      "file": "DialogOnScreenNodeWorker.cs",
+      "lines": 75
+    },
+    {
+      "file": "DisplayedInstructionHandlerWorker.cs",
+      "lines": 15
+    },
+    {
+      "file": "ErrorNodeWorker.cs",
+      "lines": 52
+    },
+    {
+      "file": "ExitNodeWorker.cs",
+      "lines": 14
+    },
+    {
+      "file": "FadeCharacterInOutNodeWorker.cs",
+      "lines": 148
+    },
+    {
+      "file": "FadeCharacterNodeWorker.cs",
+      "lines": 175
+    },
+    {
+      "file": "GroupCallsNodeWorker.cs",
+      "lines": 74
+    },
+    {
+      "file": "HideCharacterNodeWorker.cs",
+      "lines": 75
+    },
+    {
+      "file": "IfNodeWorker.cs",
+      "lines": 32
+    },
+    {
+      "file": "JumpToDialogueNodeWorker.cs",
+      "lines": 67
+    },
+    {
+      "file": "PlaySoundNodeWorker.cs",
+      "lines": 133
+    },
+    {
+      "file": "SetBackgroundNodeWorker.cs",
+      "lines": 132
+    },
+    {
+      "file": "ShowCharacterNodeWorker.cs",
+      "lines": 75
+    },
+    {
+      "file": "ShowVariantsNodeWorker.cs",
+      "lines": 107
+    },
+    {
+      "file": "SNILWorker.cs",
+      "lines": 10
+    },
+    {
+      "file": "StartNodeWorker.cs",
+      "lines": 14
+    },
+    {
+      "file": "WaitNodeWorker.cs",
+      "lines": 75
+    },
+    {
+      "file": "SolidCharacterInOutNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "SolidCharacterNodeEditor.cs",
+      "lines": 55
+    },
+    {
+      "file": "SpriteNodeEditor.cs",
+      "lines": 68
+    },
+    {
+      "file": "SpriteSelectorWindow.cs",
+      "lines": 170
+    },
+    {
+      "file": "StartNodeEditor.cs",
+      "lines": 67
+    },
+    {
+      "file": "StreamingVideoPathDrawer.cs",
+      "lines": 78
+    },
+    {
+      "file": "Texture2DNodeEditor.cs",
+      "lines": 63
+    },
+    {
+      "file": "TextureNodeEditor.cs",
+      "lines": 63
+    },
+    {
+      "file": "TextureSelectorWindow.cs",
+      "lines": 149
+    },
+    {
+      "file": "UniversalCharacterNodeEditor.cs",
+      "lines": 90
+    },
+    {
+      "file": "VariableContainerGraphEditor.cs",
+      "lines": 170
+    },
+    {
+      "file": "VariableContainerGraphInspector.cs",
+      "lines": 126
+    },
+    {
+      "file": "WaitNodeEditor.cs",
+      "lines": 90
+    },
+    {
+      "file": "VideoClipSelectorWindow.cs",
+      "lines": 211
+    },
+    {
+      "file": "YamlEditorLauncher.cs",
+      "lines": 16
+    },
+    {
+      "file": "WelcomeWindow.cs",
+      "lines": 193
+    },
+    {
+      "file": "ImageExtensions.cs",
+      "lines": 15
+    },
+    {
+      "file": "DOTweenExtensions.cs",
+      "lines": 195
+    },
+    {
+      "file": "MathfExtensions.cs",
+      "lines": 12
+    },
+    {
+      "file": "MulticastDelegateExtensions.cs",
+      "lines": 13
+    },
+    {
+      "file": "NodeQueueExtensions.cs",
+      "lines": 13
+    },
+    {
+      "file": "SpriteRendererExtensions.cs",
+      "lines": 43
+    },
+    {
+      "file": "TextMeshProExtensions.cs",
+      "lines": 20
+    },
+    {
+      "file": "Vector3Extensions.cs",
+      "lines": 36
+    },
+    {
+      "file": "DOTweenModuleAudio.cs",
+      "lines": 198
+    },
+    {
+      "file": "DOTweenModuleEPOOutline.cs",
+      "lines": 146
+    },
+    {
+      "file": "DOTweenModulePhysics.cs",
+      "lines": 216
+    },
+    {
+      "file": "DOTweenModuleSprite.cs",
+      "lines": 93
+    },
+    {
+      "file": "DOTweenModulePhysics2D.cs",
+      "lines": 193
+    },
+    {
+      "file": "DOTweenModuleUtils.cs",
+      "lines": 167
+    },
+    {
+      "file": "DOTweenModuleUnityVersion.cs",
+      "lines": 389
+    },
+    {
+      "file": "DebugLogLogcatListener.cs",
+      "lines": 55
+    },
+    {
+      "file": "DOTweenModuleUI.cs",
+      "lines": 662
+    },
+    {
+      "file": "DebugLogManagerEditor.cs",
+      "lines": 185
+    },
+    {
+      "file": "ConsoleAttribute.cs",
+      "lines": 21
+    },
+    {
+      "file": "ConsoleCustomTypeParserAttribute.cs",
+      "lines": 24
+    },
+    {
+      "file": "ConsoleMethodAttribute.cs",
+      "lines": 30
+    },
+    {
+      "file": "CircularBuffer.cs",
+      "lines": 313
+    },
+    {
+      "file": "CopyLogsOnResizeButtonClick.cs",
+      "lines": 34
+    },
+    {
+      "file": "DebugLogEntry.cs",
+      "lines": 187
+    },
+    {
+      "file": "DebugLogItemCopyWebGL.cs",
+      "lines": 36
+    },
+    {
+      "file": "DebugLogItem.cs",
+      "lines": 258
+    },
+    {
+      "file": "DebugLogPopup.cs",
+      "lines": 286
+    },
+    {
+      "file": "DebugLogResizeListener.cs",
+      "lines": 22
+    },
+    {
+      "file": "DebugsOnScrollListener.cs",
+      "lines": 47
+    },
+    {
+      "file": "DebugLogRecycledListView.cs",
+      "lines": 496
+    },
+    {
+      "file": "DebugLogConsole.cs",
+      "lines": 1512
+    },
+    {
+      "file": "EventSystemHandler.cs",
+      "lines": 71
+    },
+    {
+      "file": "DebugLogManager.cs",
+      "lines": 1906
+    },
+    {
+      "file": "SplitterGUILayout.cs",
+      "lines": 62
+    },
+    {
+      "file": "UniTaskTrackerTreeView.cs",
+      "lines": 182
+    },
+    {
+      "file": "UniTaskTrackerWindow.cs",
+      "lines": 209
+    },
+    {
+      "file": "AsyncLazy.cs",
+      "lines": 245
+    },
+    {
+      "file": "AsyncUnit.cs",
+      "lines": 26
+    },
+    {
+      "file": "CancellationTokenEqualityComparer.cs",
+      "lines": 23
+    },
+    {
+      "file": "AsyncReactiveProperty.cs",
+      "lines": 644
+    },
+    {
+      "file": "CancellationTokenSourceExtensions.cs",
+      "lines": 44
+    },
+    {
+      "file": "CancellationTokenExtensions.cs",
+      "lines": 182
+    },
+    {
+      "file": "AsyncMethodBuilderAttribute.cs",
+      "lines": 17
+    },
+    {
+      "file": "Channel.cs",
+      "lines": 450
+    },
+    {
+      "file": "AsyncUniTaskMethodBuilder.cs",
+      "lines": 269
+    },
+    {
+      "file": "AsyncUniTaskVoidMethodBuilder.cs",
+      "lines": 137
+    },
+    {
+      "file": "StateMachineRunner.cs",
+      "lines": 380
+    },
+    {
+      "file": "EnumerableAsyncExtensions.cs",
+      "lines": 34
+    },
+    {
+      "file": "ExceptionExtensions.cs",
+      "lines": 14
+    },
+    {
+      "file": "EnumeratorAsyncExtensions.cs",
+      "lines": 287
+    },
+    {
+      "file": "AddressablesAsyncExtensions.cs",
+      "lines": 483
+    },
+    {
+      "file": "DOTweenAsyncExtensions.cs",
+      "lines": 436
+    },
+    {
+      "file": "TextMeshProAsyncExtensions.cs",
+      "lines": 130
+    },
+    {
+      "file": "TextMeshProAsyncExtensions.InputField.cs",
+      "lines": 224
+    },
+    {
+      "file": "ArrayPool.cs",
+      "lines": 150
+    },
+    {
+      "file": "ArrayPoolUtil.cs",
+      "lines": 115
+    },
+    {
+      "file": "ArrayUtil.cs",
+      "lines": 73
+    },
+    {
+      "file": "ContinuationQueue.cs",
+      "lines": 225
+    },
+    {
+      "file": "DiagnosticsExtensions.cs",
+      "lines": 249
+    },
+    {
+      "file": "Error.cs",
+      "lines": 79
+    },
+    {
+      "file": "MinimumQueue.cs",
+      "lines": 112
+    },
+    {
+      "file": "PooledDelegate.cs",
+      "lines": 50
+    },
+    {
+      "file": "PlayerLoopRunner.cs",
+      "lines": 260
+    },
+    {
+      "file": "RuntimeHelpersAbstraction.cs",
+      "lines": 64
+    },
+    {
+      "file": "StatePool.cs",
+      "lines": 153
+    },
+    {
+      "file": "TaskTracker.cs",
+      "lines": 178
+    },
+    {
+      "file": "UnityWebRequestExtensions.cs",
+      "lines": 28
+    },
+    {
+      "file": "UnityEqualityComparer.cs",
+      "lines": 267
+    },
+    {
+      "file": "ValueStopwatch.cs",
+      "lines": 37
+    },
+    {
+      "file": "WeakDictionary.cs",
+      "lines": 334
+    },
+    {
+      "file": "IUniTaskAsyncEnumerable.cs",
+      "lines": 91
+    },
+    {
+      "file": "IUniTaskSource.cs",
+      "lines": 127
+    },
+    {
+      "file": "All.cs",
+      "lines": 108
+    },
+    {
+      "file": "Aggregate.cs",
+      "lines": 318
+    },
+    {
+      "file": "Any.cs",
+      "lines": 136
+    },
+    {
+      "file": "AppendPrepend.cs",
+      "lines": 151
+    },
+    {
+      "file": "AsUniTaskAsyncEnumerable.cs",
+      "lines": 10
+    },
+    {
+      "file": "AsyncEnumeratorBase.cs",
+      "lines": 356
+    },
+    {
+      "file": "Cast.cs",
+      "lines": 53
+    },
+    {
+      "file": "Buffer.cs",
+      "lines": 345
+    },
+    {
+      "file": "Concat.cs",
+      "lines": 164
+    },
+    {
+      "file": "Contains.cs",
+      "lines": 50
+    },
+    {
+      "file": "Count.cs",
+      "lines": 144
+    },
+    {
+      "file": "Average.cs",
+      "lines": 1524
+    },
+    {
+      "file": "Create.cs",
+      "lines": 184
+    },
+    {
+      "file": "DefaultIfEmpty.cs",
+      "lines": 142
+    },
+    {
+      "file": "Distinct.cs",
+      "lines": 277
+    },
+    {
+      "file": "Do.cs",
+      "lines": 258
+    },
+    {
+      "file": "Empty.cs",
+      "lines": 47
+    },
+    {
+      "file": "ElementAt.cs",
+      "lines": 58
+    },
+    {
+      "file": "Except.cs",
+      "lines": 116
+    },
+    {
+      "file": "DistinctUntilChanged.cs",
+      "lines": 662
+    },
+    {
+      "file": "First.cs",
+      "lines": 200
+    },
+    {
+      "file": "ForEach.cs",
+      "lines": 193
+    },
+    {
+      "file": "Intersect.cs",
+      "lines": 117
+    },
+    {
+      "file": "GroupJoin.cs",
+      "lines": 612
+    },
+    {
+      "file": "LongCount.cs",
+      "lines": 144
+    },
+    {
+      "file": "Last.cs",
+      "lines": 240
+    },
+    {
+      "file": "GroupBy.cs",
+      "lines": 923
+    },
+    {
+      "file": "Join.cs",
+      "lines": 728
+    },
+    {
+      "file": "Max.cs",
+      "lines": 200
+    },
+    {
+      "file": "Merge.cs",
+      "lines": 234
+    },
+    {
+      "file": "Min.cs",
+      "lines": 200
+    },
+    {
+      "file": "Never.cs",
+      "lines": 56
+    },
+    {
+      "file": "OfType.cs",
+      "lines": 61
+    },
+    {
+      "file": "Pairwise.cs",
+      "lines": 128
+    },
+    {
+      "file": "Publish.cs",
+      "lines": 173
+    },
+    {
+      "file": "Queue.cs",
+      "lines": 103
+    },
+    {
+      "file": "Range.cs",
+      "lines": 75
+    },
+    {
+      "file": "OrderBy.cs",
+      "lines": 558
+    },
+    {
+      "file": "Repeat.cs",
+      "lines": 68
+    },
+    {
+      "file": "Return.cs",
+      "lines": 63
+    },
+    {
+      "file": "Reverse.cs",
+      "lines": 78
+    },
+    {
+      "file": "SequenceEqual.cs",
+      "lines": 87
+    },
+    {
+      "file": "Single.cs",
+      "lines": 230
+    },
+    {
+      "file": "Skip.cs",
+      "lines": 69
+    },
+    {
+      "file": "SkipLast.cs",
+      "lines": 159
+    },
+    {
+      "file": "Select.cs",
+      "lines": 760
+    },
+    {
+      "file": "SelectMany.cs",
+      "lines": 892
+    },
+    {
+      "file": "MinMax.cs",
+      "lines": 3763
+    },
+    {
+      "file": "SkipUntil.cs",
+      "lines": 187
+    },
+    {
+      "file": "SkipUntilCanceled.cs",
+      "lines": 173
+    },
+    {
+      "file": "SkipWhile.cs",
+      "lines": 379
+    },
+    {
+      "file": "Take.cs",
+      "lines": 124
+    },
+    {
+      "file": "Subscribe.cs",
+      "lines": 536
+    },
+    {
+      "file": "TakeLast.cs",
+      "lines": 175
+    },
+    {
+      "file": "TakeUntil.cs",
+      "lines": 190
+    },
+    {
+      "file": "TakeUntilCanceled.cs",
+      "lines": 164
+    },
+    {
+      "file": "Throw.cs",
+      "lines": 54
+    },
+    {
+      "file": "Sum.cs",
+      "lines": 1244
+    },
+    {
+      "file": "ToArray.cs",
+      "lines": 60
+    },
+    {
+      "file": "TakeWhile.cs",
+      "lines": 342
+    },
+    {
+      "file": "ToHashSet.cs",
+      "lines": 50
+    },
+    {
+      "file": "ToDictionary.cs",
+      "lines": 278
+    },
+    {
+      "file": "ToList.cs",
+      "lines": 42
+    },
+    {
+      "file": "ToObservable.cs",
+      "lines": 97
+    },
+    {
+      "file": "ToLookup.cs",
+      "lines": 554
+    },
+    {
+      "file": "Union.cs",
+      "lines": 26
+    },
+    {
+      "file": "ToUniTaskAsyncEnumerable.cs",
+      "lines": 1115
+    },
+    {
+      "file": "EveryUpdate.cs",
+      "lines": 100
+    },
+    {
+      "file": "CombineLatest.cs",
+      "lines": 11372
+    },
+    {
+      "file": "EveryValueChanged.cs",
+      "lines": 292
+    },
+    {
+      "file": "Timer.cs",
+      "lines": 355
+    },
+    {
+      "file": "MoveNextSource.cs",
+      "lines": 63
+    },
+    {
+      "file": "Zip.cs",
+      "lines": 541
+    },
+    {
+      "file": "Where.cs",
+      "lines": 818
+    },
+    {
+      "file": "PlayerLoopTimer.cs",
+      "lines": 262
+    },
+    {
+      "file": "Progress.cs",
+      "lines": 87
+    },
+    {
+      "file": "PlayerLoopHelper.cs",
+      "lines": 581
+    },
+    {
+      "file": "TaskPool.cs",
+      "lines": 123
+    },
+    {
+      "file": "TimeoutController.cs",
+      "lines": 129
+    },
+    {
+      "file": "TriggerEvent.cs",
+      "lines": 291
+    },
+    {
+      "file": "AsyncAwakeTrigger.cs",
+      "lines": 32
+    },
+    {
+      "file": "AsyncDestroyTrigger.cs",
+      "lines": 95
+    },
+    {
+      "file": "AsyncStartTrigger.cs",
+      "lines": 38
+    },
+    {
+      "file": "AsyncTriggerBase.cs",
+      "lines": 310
+    },
+    {
+      "file": "AsyncTriggerExtensions.cs",
+      "lines": 102
+    },
+    {
+      "file": "UniTask.AsValueTask.cs",
+      "lines": 104
+    },
+    {
+      "file": "UniTask.Bridge.cs",
+      "lines": 18
+    },
+    {
+      "file": "UniTask.cs",
+      "lines": 711
+    },
+    {
+      "file": "UniTask.Delay.cs",
+      "lines": 1132
+    },
+    {
+      "file": "UniTask.Run.cs",
+      "lines": 289
+    },
+    {
+      "file": "UniTask.Threading.cs",
+      "lines": 412
+    },
+    {
+      "file": "UniTask.Factory.cs",
+      "lines": 701
+    },
+    {
+      "file": "UniTask.WhenAll.cs",
+      "lines": 237
+    },
+    {
+      "file": "UniTask.WhenAny.cs",
+      "lines": 359
+    },
+    {
+      "file": "UniTask.WhenEach.cs",
+      "lines": 183
+    },
+    {
+      "file": "UniTask.WaitUntil.cs",
+      "lines": 956
+    },
+    {
+      "file": "UniTaskExtensions.Shorthand.cs",
+      "lines": 187
+    },
+    {
+      "file": "MonoBehaviourMessagesTriggers.cs",
+      "lines": 4457
+    },
+    {
+      "file": "UniTaskScheduler.cs",
+      "lines": 103
+    },
+    {
+      "file": "UniTaskExtensions.cs",
+      "lines": 923
+    },
+    {
+      "file": "UniTaskObservableExtensions.cs",
+      "lines": 750
+    },
+    {
+      "file": "UniTaskCompletionSource.cs",
+      "lines": 944
+    },
+    {
+      "file": "UniTaskVoid.cs",
+      "lines": 19
+    },
+    {
+      "file": "UniTaskSynchronizationContext.cs",
+      "lines": 158
+    },
+    {
+      "file": "UnityAsyncExtensions.AssetBundleRequestAllAssets.cs",
+      "lines": 254
+    },
+    {
+      "file": "UnityAsyncExtensions.AsyncGPUReadback.cs",
+      "lines": 164
+    },
+    {
+      "file": "UnityAsyncExtensions.AsyncInstantiate.cs",
+      "lines": 386
+    },
+    {
+      "file": "UnityAsyncExtensions.Jobs.cs",
+      "lines": 102
+    },
+    {
+      "file": "UnityAsyncExtensions.MonoBehaviour.cs",
+      "lines": 14
+    },
+    {
+      "file": "UnityAwaitableExtensions.cs",
+      "lines": 17
+    },
+    {
+      "file": "UnityAsyncExtensions.cs",
+      "lines": 1216
+    },
+    {
+      "file": "UnityWebRequestException.cs",
+      "lines": 67
+    },
+    {
+      "file": "UnityBindingExtensions.cs",
+      "lines": 245
+    },
+    {
+      "file": "_InternalVisibleTo.cs",
+      "lines": 6
+    },
+    {
+      "file": "UnityAsyncExtensions.uGUI.cs",
+      "lines": 858
+    },
+    {
+      "file": "UniTask.WhenAny.Generated.cs",
+      "lines": 5060
+    },
+    {
+      "file": "UniTask.WhenAll.Generated.cs",
+      "lines": 5011
+    },
+    {
+      "file": "FullScreenData.cs",
+      "lines": 10
+    },
+    {
+      "file": "GetGlobalDictionaryVariableNode.cs",
+      "lines": 41
+    },
+    {
+      "file": "GetGlobalStringIntDictionaryNode.cs",
+      "lines": 6
+    },
+    {
+      "file": "GetGlobalStringStringDictionaryNode.cs",
+      "lines": 6
+    },
+    {
+      "file": "GetGlobalAudioClipNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "GetGlobalBoolNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalColorNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "GetGlobalDoubleNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalFloatNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalIntNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalLongNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalMaterialNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "GetGlobalPrefabNode.cs",
+      "lines": 11
+    },
+    {
+      "file": "GetGlobalQuaternionNode.cs",
+      "lines": 11
+    },
+    {
+      "file": "GetGlobalSpriteNode.cs",
+      "lines": 11
+    },
+    {
+      "file": "GetGlobalStringNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalTransformNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "GetGlobalUintNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalUlongNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "GetGlobalVaritableNode.cs",
+      "lines": 32
+    },
+    {
+      "file": "GetGlobalVector2Node.cs",
+      "lines": 11
+    },
+    {
+      "file": "GetGlobalTextureNode.cs",
+      "lines": 12
+    },
+    {
+      "file": "IHidden.cs",
+      "lines": 7
+    },
+    {
+      "file": "Iidentity.cs",
+      "lines": 7
+    },
+    {
+      "file": "IInitializable.cs",
+      "lines": 7
+    },
+    {
+      "file": "INovelGame.cs",
+      "lines": 12
+    },
+    {
+      "file": "IInputForm.cs",
+      "lines": 10
+    },
+    {
+      "file": "InputForm.cs",
+      "lines": 75
+    },
+    {
+      "file": "InputFormType.cs",
+      "lines": 8
+    },
+    {
+      "file": "ShowInputFormNode.cs",
+      "lines": 118
+    },
+    {
+      "file": "GamepadButtonEventType.cs",
+      "lines": 9
+    },
+    {
+      "file": "IInputSystem.cs",
+      "lines": 31
+    },
+    {
+      "file": "MobileInputEventType.cs",
+      "lines": 11
+    },
+    {
+      "file": "StandaloneInputEventType.cs",
+      "lines": 9
+    },
+    {
+      "file": "InputSystem.cs",
+      "lines": 468
+    },
+    {
+      "file": "IInputWindow.cs",
+      "lines": 12
+    },
+    {
+      "file": "InputWindow.cs",
+      "lines": 67
+    },
+    {
+      "file": "InputWindowButton.cs",
+      "lines": 8
+    },
+    {
+      "file": "InputWindowResult.cs",
+      "lines": 14
+    },
+    {
+      "file": "NovelDirectory.cs",
+      "lines": 53
+    },
+    {
+      "file": "NovelFile.cs",
+      "lines": 257
+    },
+    {
+      "file": "IPrinterDialogueText.cs",
+      "lines": 7
+    },
+    {
+      "file": "IPrinterNode.cs",
+      "lines": 9
+    },
+    {
+      "file": "IPrinterText.cs",
+      "lines": 14
+    },
+    {
+      "file": "IResetable.cs",
+      "lines": 7
+    },
+    {
+      "file": "IShowable.cs",
+      "lines": 7
+    },
+    {
+      "file": "ISubmitter.cs",
+      "lines": 9
+    },
+    {
+      "file": "JumpToDialogueNode.cs",
+      "lines": 23
+    },
+    {
+      "file": "GetCurrentLanguageNode.cs",
+      "lines": 17
+    },
+    {
+      "file": "ILocalizationNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "LocalizationConstants.cs",
+      "lines": 32
+    },
+    {
+      "file": "LocalizationStringNode.cs",
+      "lines": 25
+    },
+    {
+      "file": "AvailableLanguagesManifest.cs",
+      "lines": 11
+    },
+    {
+      "file": "CharacterLocalizationData.cs",
+      "lines": 21
+    },
+    {
+      "file": "LangfuageManifest.cs",
+      "lines": 19
+    },
+    {
+      "file": "LanguageEntry.cs",
+      "lines": 10
+    },
+    {
+      "file": "LanguageMetaData.cs",
+      "lines": 12
+    },
+    {
+      "file": "NodeLocalizationData.cs",
+      "lines": 11
+    },
+    {
+      "file": "PreloadLanguageData.cs",
+      "lines": 12
+    },
+    {
+      "file": "SelectLanguageButton.cs",
+      "lines": 99
+    },
+    {
+      "file": "ILanguageListView.cs",
+      "lines": 6
+    },
+    {
+      "file": "LanguageListView.cs",
+      "lines": 165
+    },
+    {
+      "file": "LanguageSelectView.cs",
+      "lines": 99
+    },
+    {
+      "file": "LanguageTooltipView.cs",
+      "lines": 40
+    },
+    {
+      "file": "UILocalizationText.cs",
+      "lines": 140
+    },
+    {
+      "file": "IMainMenu.cs",
+      "lines": 6
+    },
+    {
+      "file": "MainMenu.cs",
+      "lines": 152
+    },
+    {
+      "file": "IMessageMenuWindow.cs",
+      "lines": 6
+    },
+    {
+      "file": "IOpenMessageWindowButton.cs",
+      "lines": 7
+    },
+    {
+      "file": "MessageMenuWindow.cs",
+      "lines": 66
+    },
+    {
+      "file": "OpenMessageWindowButton.cs",
+      "lines": 49
+    },
+    {
+      "file": "IMessageOnScreenWindow.cs",
+      "lines": 14
+    },
+    {
+      "file": "MessageOnScreenNode.cs",
+      "lines": 28
+    },
+    {
+      "file": "MessageOnScreenWindow.cs",
+      "lines": 103
+    },
+    {
+      "file": "MessagePrinterText.cs",
+      "lines": 10
+    },
+    {
+      "file": "MessageView.cs",
+      "lines": 24
+    },
+    {
+      "file": "MonoStratup.cs",
+      "lines": 38
+    },
+    {
+      "file": "NovelCamera.cs",
+      "lines": 38
+    },
+    {
+      "file": "NovelGame.cs",
+      "lines": 52
+    },
+    {
+      "file": "IOpenPauseWindowButton.cs",
+      "lines": 6
+    },
+    {
+      "file": "IPauseWindow.cs",
+      "lines": 6
+    },
+    {
+      "file": "OpenPauseWindowButton.cs",
+      "lines": 71
+    },
+    {
+      "file": "PauseWindow.cs",
+      "lines": 138
+    },
+    {
+      "file": "PoolMono.cs",
+      "lines": 80
+    },
+    {
+      "file": "PrinterTextNode.cs",
+      "lines": 71
+    },
+    {
+      "file": "PrinterText.cs",
+      "lines": 245
+    },
+    {
+      "file": "CharacterRepository.cs",
+      "lines": 56
+    },
+    {
+      "file": "IRepository.cs",
+      "lines": 6
+    },
+    {
+      "file": "MaterialRepository.cs",
+      "lines": 44
+    },
+    {
+      "file": "RepositoryBase.cs",
+      "lines": 9
+    },
+    {
+      "file": "RepositoryContainer.cs",
+      "lines": 38
+    },
+    {
+      "file": "AutosaveNode.cs",
+      "lines": 17
+    },
+    {
+      "file": "CameraSaver.cs",
+      "lines": 38
+    },
+    {
+      "file": "ISaveLoadProvider.cs",
+      "lines": 16
+    },
+    {
+      "file": "FileSaveLoadProvider.cs",
+      "lines": 201
+    },
+    {
+      "file": "ISaveProgressNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "PreloadSave.cs",
+      "lines": 24
+    },
+    {
+      "file": "SaveData.cs",
+      "lines": 53
+    },
+    {
+      "file": "PlayerPrefsSaveLoadProvider.cs",
+      "lines": 181
+    },
+    {
+      "file": "ISaveListView.cs",
+      "lines": 6
+    },
+    {
+      "file": "SaveListView.cs",
+      "lines": 158
+    },
+    {
+      "file": "SaveView.cs",
+      "lines": 173
+    },
+    {
+      "file": "UserDataSaver.cs",
+      "lines": 33
+    },
+    {
+      "file": "ScriptableObjectIdentity.cs",
+      "lines": 14
+    },
+    {
+      "file": "AnimationButtonsType.cs",
+      "lines": 11
+    },
+    {
+      "file": "ISelectableVariant.cs",
+      "lines": 9
+    },
+    {
+      "file": "IShowerVariants.cs",
+      "lines": 9
+    },
+    {
+      "file": "IVariantButton.cs",
+      "lines": 6
+    },
+    {
+      "file": "IVariantsSelectWindow.cs",
+      "lines": 6
+    },
+    {
+      "file": "ShowVariantsNode.cs",
+      "lines": 213
+    },
+    {
+      "file": "VariantButton.cs",
+      "lines": 156
+    },
+    {
+      "file": "VariantsSelectWindow.cs",
+      "lines": 165
+    },
+    {
+      "file": "AssetConverter.cs",
+      "lines": 29
+    },
+    {
+      "file": "AudioClipLibrary.cs",
+      "lines": 9
+    },
+    {
+      "file": "BaseAssetLibrary.cs",
+      "lines": 92
+    },
+    {
+      "file": "Entry.cs",
+      "lines": 20
+    },
+    {
+      "file": "MaterialLibrary.cs",
+      "lines": 9
+    },
+    {
+      "file": "PrefabLibrary.cs",
+      "lines": 9
+    },
+    {
+      "file": "SNEngineSerialization.cs",
+      "lines": 30
+    },
+    {
+      "file": "SpriteLibrary.cs",
+      "lines": 9
+    },
+    {
+      "file": "TextureLibrary.cs",
+      "lines": 9
+    },
+    {
+      "file": "Texture2DLibrary.cs",
+      "lines": 9
+    },
+    {
+      "file": "UnityContractResolver.cs",
+      "lines": 71
+    },
+    {
+      "file": "AssetLibraryService.cs",
+      "lines": 81
+    },
+    {
+      "file": "AudioService.cs",
+      "lines": 117
+    },
+    {
+      "file": "BackgroundService.cs",
+      "lines": 222
+    },
+    {
+      "file": "ConfirmationWindowService.cs",
+      "lines": 64
+    },
+    {
+      "file": "CharacterService.cs",
+      "lines": 401
+    },
+    {
+      "file": "DebugService.cs",
+      "lines": 38
+    },
+    {
+      "file": "DialogueExecutorService.cs",
+      "lines": 32
+    },
+    {
+      "file": "DialogueOnScreenService.cs",
+      "lines": 68
+    },
+    {
+      "file": "DialogueService.cs",
+      "lines": 131
+    },
+    {
+      "file": "DialogueUIService.cs",
+      "lines": 79
+    },
+    {
+      "file": "FullScreenService.cs",
+      "lines": 29
+    },
+    {
+      "file": "InputFormService.cs",
+      "lines": 95
+    },
+    {
+      "file": "InputService.cs",
+      "lines": 84
+    },
+    {
+      "file": "InputWindowService.cs",
+      "lines": 63
+    },
+    {
+      "file": "IService.cs",
+      "lines": 6
+    },
+    {
+      "file": "LanguageListViewService.cs",
+      "lines": 43
+    },
+    {
+      "file": "MainMenuService.cs",
+      "lines": 63
+    },
+    {
+      "file": "MessageMenuWindowService.cs",
+      "lines": 47
+    },
+    {
+      "file": "LanguageService.cs",
+      "lines": 379
+    },
+    {
+      "file": "MessageService.cs",
+      "lines": 116
+    },
+    {
+      "file": "MusicService.cs",
+      "lines": 32
+    },
+    {
+      "file": "OpenMessageWindowButtonService.cs",
+      "lines": 51
+    },
+    {
+      "file": "OpenPauseWindowButtonService.cs",
+      "lines": 52
+    },
+    {
+      "file": "PauseWindowService.cs",
+      "lines": 47
+    },
+    {
+      "file": "RenderOldDialogueService.cs",
+      "lines": 48
+    },
+    {
+      "file": "SaveListViewService.cs",
+      "lines": 46
+    },
+    {
+      "file": "SelectVariantsService.cs",
+      "lines": 63
+    },
+    {
+      "file": "SaveLoadService.cs",
+      "lines": 277
+    },
+    {
+      "file": "ServiceBase.cs",
+      "lines": 10
+    },
+    {
+      "file": "ServiceContainer.cs",
+      "lines": 46
+    },
+    {
+      "file": "SettingsService.cs",
+      "lines": 53
+    },
+    {
+      "file": "SpriteObjectService.cs",
+      "lines": 34
+    },
+    {
+      "file": "SnapshotService.cs",
+      "lines": 197
+    },
+    {
+      "file": "StartupService.cs",
+      "lines": 14
+    },
+    {
+      "file": "UIService.cs",
+      "lines": 58
+    },
+    {
+      "file": "UserDataService.cs",
+      "lines": 59
+    },
+    {
+      "file": "VaritablesContainerService.cs",
+      "lines": 49
+    },
+    {
+      "file": "VideoService.cs",
+      "lines": 52
+    },
+    {
+      "file": "FileSnapshotProvider.cs",
+      "lines": 74
+    },
+    {
+      "file": "ISnapshotProvider.cs",
+      "lines": 11
+    },
+    {
+      "file": "PlayerPrefsSnapshotProvider.cs",
+      "lines": 50
+    },
+    {
+      "file": "SNEngineRuntimeSettings.cs",
+      "lines": 33
+    },
+    {
+      "file": "SplashVideoPlayer.cs",
+      "lines": 97
+    },
+    {
+      "file": "FadeSpriteObjectBehaviourNode.cs",
+      "lines": 24
+    },
+    {
+      "file": "FadeSpriteObjectValueNode.cs",
+      "lines": 24
+    },
+    {
+      "file": "GetSpriteObjectNode.cs",
+      "lines": 24
+    },
+    {
+      "file": "HideSpriteObjectNode.cs",
+      "lines": 30
+    },
+    {
+      "file": "ISpriteObject.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetSpriteObjectColorNode.cs",
+      "lines": 21
+    },
+    {
+      "file": "ShowSpriteObjectNode.cs",
+      "lines": 28
+    },
+    {
+      "file": "SpriteObjectInteractionAsyncNode.cs",
+      "lines": 27
+    },
+    {
+      "file": "SpriteObject.cs",
+      "lines": 329
+    },
+    {
+      "file": "SpriteObjectInteractionNode.cs",
+      "lines": 25
+    },
+    {
+      "file": "TextParser.cs",
+      "lines": 75
+    },
+    {
+      "file": "IUIContainer.cs",
+      "lines": 9
+    },
+    {
+      "file": "SimpleButtonTransparency.cs",
+      "lines": 49
+    },
+    {
+      "file": "UIAnimateButtonBase.cs",
+      "lines": 14
+    },
+    {
+      "file": "UIClickEventRelay.cs",
+      "lines": 16
+    },
+    {
+      "file": "UIPointerEventRelay.cs",
+      "lines": 22
+    },
+    {
+      "file": "UIContainer.cs",
+      "lines": 23
+    },
+    {
+      "file": "FileUserDataProvider.cs",
+      "lines": 84
+    },
+    {
+      "file": "IUserDataProvider.cs",
+      "lines": 11
+    },
+    {
+      "file": "UserData.cs",
+      "lines": 14
+    },
+    {
+      "file": "PlayerPrefsUserDataProvider.cs",
+      "lines": 61
+    },
+    {
+      "file": "ResourceLoader.cs",
+      "lines": 66
+    },
+    {
+      "file": "GetVideoPlayerNode.cs",
+      "lines": 23
+    },
+    {
+      "file": "HideVideoNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "INovelVideoPlayer.cs",
+      "lines": 20
+    },
+    {
+      "file": "PlayVideoAsyncNode.cs",
+      "lines": 32
+    },
+    {
+      "file": "NovelVideoPlayer.cs",
+      "lines": 307
+    },
+    {
+      "file": "PlayVideoNode.cs",
+      "lines": 25
+    },
+    {
+      "file": "SetLoopVideoNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetPlaybackSpeedVideoNode.cs",
+      "lines": 14
+    },
+    {
+      "file": "SetUpdateModeVideoNode.cs",
+      "lines": 16
+    },
+    {
+      "file": "ShowVideoNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "StopVideoNode.cs",
+      "lines": 10
+    },
+    {
+      "file": "VideoInteractionNode.cs",
+      "lines": 24
+    },
+    {
+      "file": "VideoInteractionNodeAsync.cs",
+      "lines": 26
+    },
+    {
+      "file": "WebGLVideoPlayerAudioSourceController.cs",
+      "lines": 106
+    },
+    {
+      "file": "FromYAMLNode.cs",
+      "lines": 40
+    },
+    {
+      "file": "ToYAMLNode.cs",
+      "lines": 29
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Fade {_target} {type} for {_duration} seconds with {_ease} ease
+worker:FadeCharacterInOutNodeWorker

@@ -1,0 +1,10 @@
+If Show Variant
+Variants:
+[Option A]
+[Option B]
+...
+True:
+[Commands for selected variant]
+False:
+[Commands if no variant matched or cancelled]
+endif

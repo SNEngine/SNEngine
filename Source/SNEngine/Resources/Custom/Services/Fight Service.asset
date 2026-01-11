@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1af422c4331abc438db9cd96cb2b627, type: 3}
+  m_Name: Fight Service
+  m_EditorClassIdentifier: 
+  _hitShakeDuration: 0.3
+  _hitShakeStrength: 1.2
+  _hitShakeVibrato: 3
+  _hitColor: {r: 1, g: 0, b: 0, a: 1}
+  _hitColorDuration: 0.1
+  _hitColorEase: 1
+  _defaultEnergyRestoreCooldown: 5

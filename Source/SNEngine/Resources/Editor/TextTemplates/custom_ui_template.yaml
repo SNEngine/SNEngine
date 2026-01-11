@@ -1,0 +1,22 @@
+ability_9aea0641-7a3e-4ac2-9600-25422a15e297_name: Heal
+ability_3cc91cdb-8af8-48be-b768-cfdd37b72496_name: Fireball
+ability_d7ffab4a-a677-4e1f-9b44-05be19711b71_name: Frost Armor
+ability_9aea0641-7a3e-4ac2-9600-25422a15e297_desc: Heals Naoto Health by 9.
+ability_3cc91cdb-8af8-48be-b768-cfdd37b72496_desc: Summons a fireball and deals 25 damage to the enemy. Cooldown 4 turns.
+ability_d7ffab4a-a677-4e1f-9b44-05be19711b71_desc: Naoto strengthens his spirit, increasing his resolve to withstand the enemy's torment. This defensive stance slightly reduces incoming damage and lasts for 2 turns. Cooldown 2 turns.
+ability_e2cc7da2-2da1-4929-9b5f-e042417f0099_name: Heal
+ability_e2cc7da2-2da1-4929-9b5f-e042417f0099_desc: Heals Succubus Nagatoro Health by 12.
+ability_83fa2e9c-84c2-4e85-8502-47b46c43f582_name: Whip
+ability_83fa2e9c-84c2-4e85-8502-47b46c43f582_desc: Nagatoro strikes with his whip, total damage 12.
+ability_9a9c8178-e113-44b2-a3cb-a4b6825842ad_name: Drain
+ability_9a9c8178-e113-44b2-a3cb-a4b6825842ad_desc: Drains a percentage of the target's current Health Points (HP) and heals the user by the same amount at the start of the user's turn. This effect repeats for a set number of turns.
+fight_attack: Attack
+fight_guard: Guard
+fight_wait: Wait
+fight_skill: Skill
+fight_back: Back
+fight_uses_prefix: uses # SMALL LETTERS
+fight_damage: damage # SMALL LETTERS
+fight_critical_damage_message: takes critical # SMALL LETTERS
+fight_from: from # SMALL LETTERS
+skip: Skip

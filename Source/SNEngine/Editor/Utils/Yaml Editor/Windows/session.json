@@ -1,0 +1,26 @@
+{
+    "root_path": "e:\\repos\\nagatoro-novel-game\\assets\\streamingassets\\language\\en",
+    "root_localization_path": "E:/repos/Nagatoro-Novel-Game/Assets/StreamingAssets/Language",
+    "active_language": "en",
+    "current_tab_index": 0,
+    "open_tabs": [
+        {
+            "file_path": "E:/repos/Nagatoro-Novel-Game/Assets/StreamingAssets/Language\\en\\ui.yaml",
+            "is_dirty": false,
+            "dirty_content": null
+        },
+        {
+            "file_path": "E:/repos/Nagatoro-Novel-Game/Assets/StreamingAssets/Language\\en\\metadata.yaml",
+            "is_dirty": false,
+            "dirty_content": null
+        }
+    ],
+    "foldouts": {
+        "e:\\repos\\nagatoro-novel-game\\assets\\streamingassets\\language\\en": true,
+        "e:\\repos\\nagatoro-novel-game\\assets\\streamingassets\\language\\en\\dialogues": false,
+        "e:\\repos\\nagatoro-novel-game\\assets\\streamingassets\\language\\ru": true,
+        "e:\\repos\\nagatoro-novel-game\\assets\\streamingassets\\language\\ru\\dialogues": false
+    },
+    "last_open_dir": "E:/repos/Nagatoro-Novel-Game/Assets/StreamingAssets/Language",
+    "font_size": 14
+}

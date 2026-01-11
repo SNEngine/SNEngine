@@ -1,0 +1,71 @@
+# default_styles.yaml
+# Default color scheme for YAML editor.
+# Used as fallback and for reset functionality in Styles Editor.
+
+DarkTheme:
+  # Primary colors - red-black palette
+  Background: "#1A1A1A"        # Dark background
+  Foreground: "#E8E8E8"        # Light text
+  SecondaryBackground: "#2A2A2A" # Toolbar, status bar (slightly lighter than background)
+  EditorBackground: "#1F1F1F"    # Text editor background (almost black)
+  BorderColor: "#3A3A3A"       # Input/text border color (medium gray)
+  HighlightColor: "#C84B31"    # Primary highlight color (dark red/terracotta)
+  HoverColor: "#3A3A3A"        # Hover color (gray)
+
+  # File panel colors
+  FilePanelBackground: "#181818"  # Very dark panel background
+  FilePanelHover: "#2D2D2D"       # Light gray on hover
+  FolderColor: "#E06C75"          # Soft red for folders (instead of #E8765B)
+
+  # Notification/status colors
+  StatusDefault: "#999999"        # Gray for normal status
+  NotificationSuccess: "#6BA878"  # Soft green
+  NotificationError: "#D9685A"    # Soft red for errors
+  NotificationWarning: "#E8C56B"  # Soft yellow for warnings
+
+  # Text editor colors
+  NotificationTextColor: "#1A1A1A"   # Dark text in notifications
+  EditorCloseButtonColor: "#E8E8E8"  # Close tab cross color
+  EditorFontName: "Consolas"         # Editor font family
+  EditorDefaultFontSize: 14          # Default font size
+  ActiveHighlightColor: "#C84B31"   # Active match highlight color (current search result highlight, changed from yellow to red)
+  
+  # Syntax highlighting colors
+  SyntaxCommentColor: "#608B4E"      # Green for comments
+  SyntaxKeyColor: "#E06C75"          # Red for keys
+  SyntaxKeywordColor: "#AF55C4"      # Purple for keywords (true, false, null)
+  SyntaxStringColor: "#ABB2BF"       # Light gray for strings
+  SyntaxDefaultColor: "#CCCCCC"      # Default text color
+
+  # Scrollbar styling for a modern thin rounded look
+  ScrollbarWidth: 10
+  ScrollbarBackground: "transparent"
+  ScrollbarHandle: "#3A3A3A"
+  ScrollbarHandleHover: "#5A5A5A"
+  ScrollbarRadius: 6
+  # Brand text (right side of tabs)
+  BrandTextColor: "#E06C75"   # soft-red for signature (instead of #D9685A)
+
+  # Icon colors
+  FolderIconColor: "#E06C75"  # Color for folder icon
+  YamlFileIconColor: "#CCCCCC"  # Color for YAML file icon
+
+  # Line number colors
+  ActiveLineNumberColor: "#C84B31"  # Color for highlighting the current line number
+
+  # Progress bar colors
+  ProgressBarBackground: "#1F1F1F"  # Background color for progress bar (same as editor background)
+  ProgressBarColor: "#C84B31"       # Progress fill color (same as highlight color)
+  ProgressBarBorderColor: "#3A3A3A" # Border color for progress bar (same as border color)
+
+  # Particle system colors
+  ParticlePrimaryColor: "#FF6B6B"     # Primary particle color (red)
+  ParticleSecondaryColor: "#4ECDC4"   # Secondary particle color (teal)
+  ParticleAccentColor: "#FFE66D"      # Accent particle color (yellow)
+  ParticleGlowColor: "#C84B31"        # Glow/halo color for particles (same as highlight)
+
+  # Particle line/trail colors - for particle connection lines or trails
+  ParticleTrailColor: "#A0A0A0"       # Color for particle connection lines or trails
+  ParticleLinePrimaryColor: "#FF6B6B80"   # Primary particle line color with transparency (semi-transparent red)
+  ParticleLineSecondaryColor: "#4ECDC480" # Secondary particle line color with transparency (semi-transparent teal)
+  ParticleConnectionColor: "#C84B3140"    # Connection line color between particles (transparent red)

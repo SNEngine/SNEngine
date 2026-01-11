@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6255575277214355243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca01bb563790c845a12c4476b4b7398, type: 3}
+  m_Name: Summary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -424, y: -24}
+  ports:
+    keys: []
+    values: []
+  _width: 185
+  _height: 235
+  _color: {r: 0.94509804, g: 1, b: 0, a: 0.14901961}
+  _summary: Start excecutes in the start dialog
+--- !u!114 &-1012642115470749886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17168279df4f7b46a00e4cfac1b3a7f, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -264, y: 72}
+  ports:
+    keys:
+    - _enter
+    - _exit
+    values:
+    - _fieldName: _enter
+      _node: {fileID: -1012642115470749886}
+      _typeQualifiedName: XNode.NodePort, XNode, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _exit
+      _node: {fileID: -1012642115470749886}
+      _typeQualifiedName: XNode.NodePort, XNode, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: _enter
+        node: {fileID: 5633446451407788433}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _nodeGuid: a383cf9d35d84bf
+  _enabled: 1
+  _enter:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  _exit:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415b40e9f1cde0a4596f6470be87b284, type: 3}
+  m_Name: DialogueTemplate
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1012642115470749886}
+  - {fileID: 5633446451407788433}
+  - {fileID: 1881418443929538774}
+  - {fileID: -6255575277214355243}
+  - {fileID: 6975833096194481592}
+  - {fileID: 3876454115482309541}
+  _guid: f19daba5849f466
+--- !u!114 &1881418443929538774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03f753257844924caa2d2df1f6ae7fd, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 408, y: 88}
+  ports:
+    keys:
+    - _enter
+    - _exit
+    values:
+    - _fieldName: _enter
+      _node: {fileID: 1881418443929538774}
+      _typeQualifiedName: XNode.NodePort, XNode, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: _exit
+        node: {fileID: 5633446451407788433}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _exit
+      _node: {fileID: 1881418443929538774}
+      _typeQualifiedName: XNode.NodePort, XNode, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _nodeGuid: f325a7ac46d4421
+  _enabled: 1
+  _enter:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  _exit:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+--- !u!114 &3876454115482309541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca01bb563790c845a12c4476b4b7398, type: 3}
+  m_Name: Summary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 632, y: 232}
+  ports:
+    keys: []
+    values: []
+  _width: 227
+  _height: 277
+  _color: {r: 0.945946, g: 1, b: 0, a: 0.14901961}
+  _summary: Exit requires for working any dialogue graph (or use a Jump to Dialogue
+    Node)
+--- !u!114 &5633446451407788433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6fb395804d5544389b751527fec920, type: 3}
+  m_Name: Debug
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 56, y: 72}
+  ports:
+    keys:
+    - _targetLog
+    - _message
+    - _enter
+    - _exit
+    values:
+    - _fieldName: _targetLog
+      _node: {fileID: 5633446451407788433}
+      _typeQualifiedName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _message
+      _node: {fileID: 5633446451407788433}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _enter
+      _node: {fileID: 5633446451407788433}
+      _typeQualifiedName: XNode.NodePort, XNode, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: _exit
+        node: {fileID: -1012642115470749886}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _exit
+      _node: {fileID: 5633446451407788433}
+      _typeQualifiedName: XNode.NodePort, XNode, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: _enter
+        node: {fileID: 1881418443929538774}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _nodeGuid: c871f891cbe14d7
+  _enabled: 1
+  _enter:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  _exit:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  _targetLog: {fileID: 0}
+  _message: Hello World
+  _logType: 0
+--- !u!114 &6975833096194481592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca01bb563790c845a12c4476b4b7398, type: 3}
+  m_Name: Summary
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 216, y: -40}
+  ports:
+    keys: []
+    values: []
+  _width: 182
+  _height: 232
+  _color: {r: 0.945946, g: 1, b: 0, a: 0.14901961}
+  _summary: 'Graph working by queue of nodes
+
+'

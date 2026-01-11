@@ -1,0 +1,2 @@
+Show Background {_sprite}
+worker:SetBackgroundNodeWorker

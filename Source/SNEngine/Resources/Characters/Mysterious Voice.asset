@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944ee2a472744dc408f8ba48b25316a0, type: 3}
+  m_Name: Mysterious Voice
+  m_EditorClassIdentifier: 
+  _guidSO: f162ca3e-cc44-4f64-98a0-421f7112269d
+  _name: Mysterious Voice
+  _description: 
+  _colorName: {r: 1, g: 1, b: 1, a: 1}
+  _emotions:
+  - _name: Default
+    _sprite: {fileID: 0}

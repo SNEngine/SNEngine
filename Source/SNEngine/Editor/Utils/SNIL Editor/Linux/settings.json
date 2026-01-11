@@ -1,0 +1,9 @@
+{
+    "typing_particles_enabled": true,
+    "auto_save_enabled": true,
+    "auto_save_interval": 30,
+    "show_line_numbers": true,
+    "theme": "dark",
+    "font_size": 14,
+    "font_family": "Consolas"
+}

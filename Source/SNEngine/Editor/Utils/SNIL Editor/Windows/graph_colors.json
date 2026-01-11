@@ -1,0 +1,17 @@
+{
+  "node_colors": {
+    "start": "#2E682E",
+    "end": "#682E2E",
+    "dialogue": "#2E4468",
+    "function": "#68682E",
+    "jump": "#562E68",
+    "wait": "#464646",
+    "show": "#684C20"
+  },
+  "canvas_colors": {
+    "background": "#191919",
+    "grid_main": "#0F0F0F",
+    "grid_sub": "#232323",
+    "link": "#00FF80"
+  }
+}

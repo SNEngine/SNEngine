@@ -1,0 +1,44 @@
+{
+  "node_types": [
+    {
+      "name": "start",
+      "pattern": "^START",
+      "description": "Start of a dialogue or section"
+    },
+    {
+      "name": "end",
+      "pattern": "^END",
+      "description": "End of a dialogue or section"
+    },
+    {
+      "name": "function",
+      "pattern": "^\\s*function\\s+",
+      "description": "Function definition"
+    },
+    {
+      "name": "function_call",
+      "pattern": "^\\s*call\\s+",
+      "description": "Function call"
+    },
+    {
+      "name": "jump",
+      "pattern": "^\\s*jump\\s+to\\s+",
+      "description": "Jump to another section"
+    },
+    {
+      "name": "wait",
+      "pattern": "^\\s*wait\\s+",
+      "description": "Wait/pause in the dialogue"
+    },
+    {
+      "name": "show",
+      "pattern": "^\\s*show\\s+",
+      "description": "Show character or background"
+    }
+  ],
+  "default_node_type": "dialogue",
+  "ignore_patterns": [
+    "^\\s*name\\s*:",
+    "^\\s*$"
+  ]
+}

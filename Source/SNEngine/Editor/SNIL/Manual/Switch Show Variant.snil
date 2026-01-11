@@ -1,0 +1,8 @@
+Switch Show Variant
+Cases:
+Case [value]:
+[Commands for this case]
+Case [value]:
+[Commands for this case]
+[Additional cases...]
+endcase

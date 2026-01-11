@@ -1,0 +1,2 @@
+Show {_character} with emotion {_emotion}
+worker:ShowCharacterNodeWorker

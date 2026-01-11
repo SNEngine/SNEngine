@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69b5cde76f615349b3852f4eb8272d7, type: 3}
+  m_Name: SimpleMobAI
+  m_EditorClassIdentifier: 
+  _guidSO: a5442d34-263a-4227-bc97-62a0ffe640ae
+  _guardChance: 0.1
+  _skillChance: 0.05
+  _preferredSkillType: 1

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7988113943380783968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5acde752b930912419750714915433bd, type: 3}
+  m_Name: <color=#FFFFFF>playerName (String)</color>
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -488, y: -136}
+  ports:
+    keys:
+    - _value
+    values:
+    - _fieldName: _value
+      _node: {fileID: -7988113943380783968}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _nodeGuid: 787864b2deee480
+  _name: playerName
+  _color:
+    serializedVersion: 2
+    rgba: 4294967295
+  _value: 
+--- !u!114 &-6616548962221740290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c9877b4be5d4d449c7f96418d77421, type: 3}
+  m_Name: <color=#FFFFFF>integer (Int)</color>
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -120, y: -24}
+  ports:
+    keys:
+    - _value
+    values:
+    - _fieldName: _value
+      _node: {fileID: -6616548962221740290}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _nodeGuid: cb1c5296cb7948e
+  _name: integer
+  _color:
+    serializedVersion: 2
+    rgba: 4294967295
+  _value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39adbfbd9978de44848f3bc76ffb394, type: 3}
+  m_Name: VariableContainerGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6616548962221740290}
+  - {fileID: -7988113943380783968}
+  _guid: 498d3124c9c8408

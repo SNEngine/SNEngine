@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a36cc478ddfa4ea67783eaadb1105, type: 3}
+  m_Name: Sprite Library
+  m_EditorClassIdentifier: 
+  _guidSO: a9b6428f-7e7b-493b-86cd-0106b479c71d
+  _entries:
+  - <Guid>k__BackingField: 430e8887f7ad2534e93d6f1ef4bb7a75
+    <Asset>k__BackingField: {fileID: 21300000, guid: 430e8887f7ad2534e93d6f1ef4bb7a75, type: 3}
+  - <Guid>k__BackingField: 71822f8faf9eebc4fbc80c41f2ee1558
+    <Asset>k__BackingField: {fileID: 21300000, guid: 71822f8faf9eebc4fbc80c41f2ee1558, type: 3}
+  - <Guid>k__BackingField: fd747002266e1b24b80fa6eee4c38e2b
+    <Asset>k__BackingField: {fileID: 21300000, guid: fd747002266e1b24b80fa6eee4c38e2b, type: 3}
+  - <Guid>k__BackingField: 73ab1582bc293394ea87fee81e1c9ee5
+    <Asset>k__BackingField: {fileID: 21300000, guid: 73ab1582bc293394ea87fee81e1c9ee5, type: 3}

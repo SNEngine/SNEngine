@@ -1,0 +1,2 @@
+Dialog On Screen {_text} 
+worker:DialogOnScreenNodeWorker 

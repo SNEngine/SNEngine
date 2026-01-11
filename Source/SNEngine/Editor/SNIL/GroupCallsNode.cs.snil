@@ -1,0 +1,2 @@
+function {_name}
+worker:GroupCallsNodeWorker

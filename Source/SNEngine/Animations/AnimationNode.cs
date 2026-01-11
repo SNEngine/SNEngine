@@ -1,0 +1,95 @@
+﻿using DG.Tweening;
+using SiphoinUnityHelpers.XNodeExtensions.AsyncNodes;
+using SNEngine.Debugging;
+using UnityEngine;
+
+namespace SNEngine.Animations
+{
+    public abstract class AnimationNode : AsyncNode
+    {
+        [Input(connectionType = ConnectionType.Override), SerializeField] private bool _wait;
+
+        [Space]
+
+        [Input(connectionType = ConnectionType.Override), SerializeField, Min(0)] private float _duration;
+
+        [Space]
+
+        [SerializeField] private Ease _ease = Ease.Linear;
+
+        protected Ease Ease => _ease;
+
+#if UNITY_EDITOR
+        public void ApplyEase_Editor(string easeString)
+        {
+            if (System.Enum.TryParse<Ease>(easeString, true, out Ease parsedEase))
+            {
+                _ease = parsedEase;
+            }
+            else
+            {
+                // If parsing fails, default to Linear
+                _ease = Ease.Linear;
+            }
+        }
+#endif
+
+        public override void Execute()
+        {
+            bool wait = _wait;
+
+            float duration = _duration;
+
+            if (GetInputPort(nameof(_wait)).Connection != null)
+            {
+                wait = GetDataFromPort<bool>(nameof(_wait));
+            }
+
+            if (GetInputPort(nameof(_duration)).Connection != null)
+            {
+                duration = GetDataFromPort<float>(nameof(_duration));
+            }
+
+            if (wait)
+            {
+                base.Execute();
+            }
+
+            Play(duration, _ease);
+
+        }
+
+        protected abstract void Play(float duration, Ease ease);
+    }
+
+
+    public abstract class AnimationNode<T> : AnimationNode
+    {
+        [Space]
+
+        [Input(connectionType = ConnectionType.Override), SerializeField] private T _target;
+
+        protected abstract void Play(T target, float duration, Ease ease);
+
+        protected override void Play(float duration, Ease ease)
+        {
+            T target = _target;
+
+            var input = GetInputPort(nameof(_target));
+
+            if (input.Connection != null)
+            {
+                target = GetDataFromPort<T>(nameof(_target));
+            }
+
+            if (target is null)
+            {
+                NovelGameDebug.LogError($"{nameof(_target)} is null for node (GUID: <b>{GUID}</b>)");
+
+                return;
+            }
+
+            Play(target, duration, ease);
+        }
+    }
+}

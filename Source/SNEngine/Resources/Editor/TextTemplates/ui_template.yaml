@@ -1,0 +1,24 @@
+new_game: New Game
+settings: Settings
+continue: Continue
+exit: Exit
+select_language: Select Language
+input_placeholder: Enter text...
+saves: Saves
+author: Author
+version: Version
+fx: FX
+music: Music
+fullscreen: Full Screen
+video_loading: Video is loading....
+button_ok: OK
+button_cancel: Cancel
+button_yes: YES
+button_no: NO
+save_game: New Save
+load_save: Load Save
+back_to_menu: Back To Menu
+save_button: Save
+delete_save: Delete Save
+confirm_delete_save: Are you sure you want to delete this save?
+confirm_delete_save_message: "Are you sure you want to delete '{0}'?"

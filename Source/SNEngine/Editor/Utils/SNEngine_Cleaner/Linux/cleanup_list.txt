@@ -1,0 +1,6 @@
+DELETE:Assets/SNEngine/Source/SNEngine/Resources/Custom
+DELETE:Assets/StreamingAssets|Splash
+DELETE:Assets/SNEngine/Demo
+DELETE:Assets/SNEngine/Source/SNEngine/Resources/Editor/TextTemplates/custom_ui_template.yaml
+CLEAR:Assets/SNEngine/Source/SNEngine/Resources/Characters
+CLEAR:Assets/SNEngine/Source/SNEngine/Resources/Dialogues

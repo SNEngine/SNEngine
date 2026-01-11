@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944ee2a472744dc408f8ba48b25316a0, type: 3}
+  m_Name: Nagatoro
+  m_EditorClassIdentifier: 
+  _guidSO: 53026fe3-66c4-415f-8566-a613c2478ae4
+  _name: Nagatoro
+  _description: 
+  _colorName: {r: 1, g: 1, b: 1, a: 1}
+  _emotions:
+  - _name: Naga_Lean_Bikini_Sidelook_CatClosed
+    _sprite: {fileID: 21300000, guid: e3cbd3fc9f856ef4790368b943aaa68b, type: 3}
+  - _name: Naga_Lean_Bikini_Sidelook_CatOpen
+    _sprite: {fileID: 21300000, guid: 8584bf46574c1a1478e5bbd8dd0d0879, type: 3}
+  - _name: Naga_Lean_Bikini_Sidelook_Smile
+    _sprite: {fileID: 21300000, guid: f4da69104d6f00646b0181486d98621e, type: 3}
+  - _name: Naga_Lean_Bikini_Sidelook_Smirk
+    _sprite: {fileID: 21300000, guid: b7babd81b5871b241bba7803735fb588, type: 3}
+  - _name: Naga_Lean_Bikini_Sidelook_Talking
+    _sprite: {fileID: 21300000, guid: a3383aa241154c842a9455c5bb36bdfd, type: 3}
+  - _name: Naga_Lean_Bikini_Squint_CatClosed
+    _sprite: {fileID: 21300000, guid: b0d73b08bf4155348ab68e17a602c013, type: 3}
+  - _name: Naga_Lean_Bikini_Squint_CatOpen
+    _sprite: {fileID: 21300000, guid: d1f23a2e4120f32449a09cfc6524f27d, type: 3}
+  - _name: Naga_Lean_Bikini_Squint_Smile
+    _sprite: {fileID: 21300000, guid: 54816349fb4bc8444a1d13a2fdd821f5, type: 3}
+  - _name: Naga_Lean_Bikini_Squint_Smirk
+    _sprite: {fileID: 21300000, guid: 71161b547f5884f4a9aa8c1cdc5ac9cb, type: 3}
+  - _name: Naga_Lean_Bikini_Squint_Talking
+    _sprite: {fileID: 21300000, guid: 8637f73be5af8714f92cc448be9bf61f, type: 3}
+  - _name: Naga_Lean_Shirt_Sidelook_CatClosed
+    _sprite: {fileID: 21300000, guid: e5fc8c3c6bb4473469b2e818363007f2, type: 3}
+  - _name: Naga_Lean_Shirt_Sidelook_CatOpen
+    _sprite: {fileID: 21300000, guid: 2e988cb250dfb7d48869c401c8e4e154, type: 3}
+  - _name: Naga_Lean_Shirt_Sidelook_Smile
+    _sprite: {fileID: 21300000, guid: c669722f2e636584fb41fdf54aa05bd6, type: 3}
+  - _name: Naga_Lean_Shirt_Sidelook_Smirk
+    _sprite: {fileID: 21300000, guid: b5e93f5fe7311c5469872b0525e45ab4, type: 3}
+  - _name: Naga_Lean_Shirt_Sidelook_Talking
+    _sprite: {fileID: 21300000, guid: 99d075361fd98c444bf8b794c471a0f2, type: 3}
+  - _name: Naga_Lean_Shirt_Squint_CatClosed
+    _sprite: {fileID: 21300000, guid: 71a5205ede5c72d428b8b0d009b7d4f9, type: 3}
+  - _name: Naga_Lean_Shirt_Squint_CatOpen
+    _sprite: {fileID: 21300000, guid: bc6515b943c207f448719ef390ba93e0, type: 3}
+  - _name: Naga_Lean_Shirt_Squint_Smile
+    _sprite: {fileID: 21300000, guid: fe7fd764fc70da044a43db63fe8aeff3, type: 3}
+  - _name: Naga_Lean_Shirt_Squint_Smirk
+    _sprite: {fileID: 21300000, guid: 8bde7758e6db58c47a1a7c477eccd750, type: 3}
+  - _name: Naga_Lean_Shirt_Squint_Talking
+    _sprite: {fileID: 21300000, guid: ccf4a0b1f138e574f8e8269961e0124b, type: 3}

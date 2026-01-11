@@ -1,0 +1,2 @@
+Compare {a} {type} {b}
+worker: CompareIntegersNodeWorker
