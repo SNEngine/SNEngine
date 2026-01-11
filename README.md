@@ -49,9 +49,9 @@ The SNEngine project is organized into several key directories:
 
 ## Getting Started
 
-1. Clone or download the SNEngine project
-2. Open the project in Unity
-3. Check out the demo scenes in the `Demo` folder to see examples of how to use the engine
+1. Download the latest unitypackage from the [Releases](https://github.com/SNEngine/SNEngine/releases) page
+2. Before importing, use the Symbols utility from [SNEngineUtils](https://github.com/SNEngine/SNEngineUtils) (SNEngine_Symbols) to properly configure your project
+3. Import the downloaded unitypackage into your Unity project
 4. Refer to the [documentation](https://github.com/SNEngine/SNEngineDocs/wiki/) for setup instructions and tutorials
 
 ## License
