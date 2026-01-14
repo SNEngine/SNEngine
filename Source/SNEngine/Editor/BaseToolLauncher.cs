@@ -49,8 +49,9 @@ namespace SNEngine.Editor
                 process.Start();
                 process.BeginOutputReadLine();
                 process.BeginErrorReadLine();
+                process.WaitForExit(); // Wait for the process to complete
             }
-            catch (Exception e)
+            catch (System.Exception e)
             {
                 onLogReceived?.Invoke($"Exception: {e.Message}");
             }

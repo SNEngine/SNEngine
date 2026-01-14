@@ -77,3 +77,15 @@ crashlytics-build.properties
 
 # Demo folder
 Demo/
+Source/SNEngine/Editor/Utils/SNE_Gen/Windows/sne_identity.bytes
+Source/SNEngine/Editor/Utils/SNE_Gen/Windows/sne_config.txt
+Source/SNEngine/Editor/Utils/SNE_Gen/Windows/sne_config.txt.meta
+Source/SNEngine/Editor/Utils/SNE_Gen/Windows/sne_identity.bytes.meta
+Source/SNEngine/Editor/Utils/SNE_Injector/Windows/Nagatoro Novel Game_Data.meta
+Source/SNEngine/Resources/original_signature.png
+Source/SNEngine/Resources/original_signature.png.meta
+Source/SNEngine/Resources/sne_config.txt.meta
+Source/SNEngine/Resources/sne_identity.bytes
+Source/SNEngine/Resources/SNEngine_security_key.png.meta
+Source/SNEngine/Resources/SNEngine_security_key.png
+Source/SNEngine/Resources/sne_config.txt

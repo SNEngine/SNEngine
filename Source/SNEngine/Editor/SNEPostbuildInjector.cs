@@ -32,19 +32,20 @@ namespace SNEngine.Editor
             
             // Find the identity files that were generated
             string resourcesPath = Path.Combine(baseDirectory, "Assets", "SNEngine", "Source", "SNEngine", "Resources");
-            string hiddenIdentityPath = Path.Combine(resourcesPath, "._sne_identity.dat");
+            string identityPath = Path.Combine(resourcesPath, "sne_identity.bytes");
             string configPath = Path.Combine(resourcesPath, "sne_config.txt");
-            
-            if (!File.Exists(hiddenIdentityPath) || !File.Exists(configPath))
+
+            if (!File.Exists(identityPath))
             {
-               NovelGameDebug.LogError("SNEngine Security: Identity files not found. Cannot inject security identity.");
+                NovelGameDebug.LogError("SNEngine Security: Identity file (sne_identity.bytes) not found. Cannot inject security identity.");
                 return;
             }
-            
-            // Read the project GUID from the config file
+
+            // Read the project GUID from the identity file
             string projectGuid = null;
             string gameName = null;
-            
+
+            // Try to read from config file first
             if (File.Exists(configPath))
             {
                 string[] lines = File.ReadAllLines(configPath);
@@ -57,6 +58,35 @@ namespace SNEngine.Editor
                     else if (line.StartsWith("GAME_NAME="))
                     {
                         gameName = line.Substring("GAME_NAME=".Length);
+                    }
+                }
+            }
+
+            // If config file doesn't exist or doesn't contain the required data, try to extract from identity file
+            if (string.IsNullOrEmpty(projectGuid) || string.IsNullOrEmpty(gameName))
+            {
+                // Read the identity file to extract GUID and game name
+                if (File.Exists(identityPath))
+                {
+                    byte[] identityData = File.ReadAllBytes(identityPath);
+                    if (identityData.Length >= 76) // Minimum size for SNEngineIdentity structure
+                    {
+                        // Extract GUID from bytes 40-75 (36 bytes)
+                        byte[] guidBytes = new byte[36];
+                        System.Array.Copy(identityData, 40, guidBytes, 0, 36);
+
+                        // Convert to string and trim null terminators
+                        string extractedGuid = System.Text.Encoding.UTF8.GetString(guidBytes);
+                        int nullIndex = extractedGuid.IndexOf('\0');
+                        if (nullIndex >= 0)
+                            extractedGuid = extractedGuid.Substring(0, nullIndex);
+
+                        if (!string.IsNullOrEmpty(extractedGuid))
+                            projectGuid = extractedGuid.Trim();
+
+                        // Extract game name from elsewhere if needed
+                        if (string.IsNullOrEmpty(gameName))
+                            gameName = PlayerSettings.productName;
                     }
                 }
             }

@@ -8,7 +8,7 @@ namespace SNEngine.Editor
     [InitializeOnLoad]
     public class SNEIdentityGenerator : BaseToolLauncher
     {
-        private const string HIDDEN_IDENTITY_FILE = "._sne_identity.dat";
+        private const string HIDDEN_IDENTITY_FILE = "sne_identity.bytes";
         private const string CONFIG_FILE = "sne_config.txt";
 
         static SNEIdentityGenerator()
@@ -71,7 +71,22 @@ namespace SNEngine.Editor
                 Directory.CreateDirectory(outputDir);
             }
 
-            string args = $"\"{gameName}\" \"{organizationName}\" \"{outputDir}\"";
+            // Check if SNEngine_security_key.png exists in the Resources directory
+            string securityKeyImagePath = Path.Combine(outputDir, "SNEngine_security_key.png");
+            string args;
+
+            if (File.Exists(securityKeyImagePath))
+            {
+                // If SNEngine_security_key.png exists, use image mode
+                NovelGameDebug.Log("SNEngine Security: Found SNEngine_security_key.png, generating identity in image mode...");
+                args = $"\"{gameName}\" \"{organizationName}\" \"{securityKeyImagePath}\" \"{outputDir}\"";
+            }
+            else
+            {
+                // If SNEngine_security_key.png doesn't exist, use text mode
+                NovelGameDebug.Log("SNEngine Security: No SNEngine_security_key.png found, generating identity in text mode...");
+                args = $"\"{gameName}\" \"{organizationName}\" \"{outputDir}\"";
+            }
 
             // Launch the generator executable using the base class method
             // Looking for the generator in the Utils/SNE_Gen folder structure
