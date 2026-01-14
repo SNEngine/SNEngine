@@ -1,0 +1,9 @@
+{
+    "name": "SNE_Validator",
+    "version": "1.0.0",
+    "description": "SNEngine Security Validator Library",
+    "supportedPlatforms": [
+        "Android",
+        "Windows"
+    ]
+}
