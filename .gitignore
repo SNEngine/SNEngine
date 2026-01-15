@@ -89,3 +89,7 @@ Source/SNEngine/Resources/sne_identity.bytes
 Source/SNEngine/Resources/SNEngine_security_key.png.meta
 Source/SNEngine/Resources/SNEngine_security_key.png
 Source/SNEngine/Resources/sne_config.txt
+Source/SNEngine/Editor/Utils/SNE_Injector/Windows/sne_config.txt.meta
+Source/SNEngine/Editor/Utils/SNE_Injector/Windows/sne_config.txt
+Source/SNEngine/Editor/Utils/SNE_Injector/Windows/original_signature.png.meta
+Source/SNEngine/Editor/Utils/SNE_Injector/Windows/original_signature.png
