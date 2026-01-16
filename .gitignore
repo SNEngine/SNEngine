@@ -93,3 +93,5 @@ Source/SNEngine/Editor/Utils/SNE_Injector/Windows/sne_config.txt.meta
 Source/SNEngine/Editor/Utils/SNE_Injector/Windows/sne_config.txt
 Source/SNEngine/Editor/Utils/SNE_Injector/Windows/original_signature.png.meta
 Source/SNEngine/Editor/Utils/SNE_Injector/Windows/original_signature.png
+Source/SNEngine/Resources/sne_public_key.bin.meta
+Source/SNEngine/Resources/sne_public_key.bin

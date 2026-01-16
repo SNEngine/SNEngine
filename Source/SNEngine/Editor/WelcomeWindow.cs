@@ -132,6 +132,39 @@ namespace SNEngine.Editor
             AutoIconAssigner.Assign();
             InstallTextMeshProEssentials();
 
+            // Generate public key for the security system
+            string productName = string.IsNullOrEmpty(PlayerSettings.productName) ? "MyGame" : PlayerSettings.productName;
+            string companyName = PlayerSettings.companyName;
+
+            // Check if company name is default and prompt user to change it
+            if (string.IsNullOrEmpty(companyName) || companyName == "DefaultCompany")
+            {
+                bool shouldContinue = EditorUtility.DisplayDialog(
+                    "Company Name Required",
+                    "Please set a proper company name in Project Settings > Player before generating the public key.\n\n" +
+                    "Current company name is 'DefaultCompany' which is not recommended for production use.\n\n" +
+                    "Click 'Yes' to continue anyway with default values, or 'No' to set it first.",
+                    "Yes, Continue Anyway",
+                    "No, Set Company Name First"
+                );
+
+                if (!shouldContinue)
+                {
+                    // Open Player Settings
+                    SettingsService.OpenProjectSettings("Project/Player");
+                    return; // Exit the setup process
+                }
+                else
+                {
+                    // Use default values if user chooses to continue
+                    SNEPubKeyExtractorLauncher.ExtractPublicKey(productName, "MyOrganization");
+                }
+            }
+            else
+            {
+                SNEPubKeyExtractorLauncher.ExtractPublicKey(productName, companyName);
+            }
+
             EditorUtility.DisplayDialog(
                 "Setup Complete",
                 "SNEngine configuration finished",

@@ -1,0 +1,10 @@
+StreamingAssets/Language
+StreamingAssets/Temp
+StreamingAssets/Cache
+StreamingAssets/Logs
+StreamingAssets/SaveData
+StreamingAssets/UserData
+StreamingAssets/Downloaded
+StreamingAssets/Updates
+StreamingAssets/TempFiles
+StreamingAssets/CacheData

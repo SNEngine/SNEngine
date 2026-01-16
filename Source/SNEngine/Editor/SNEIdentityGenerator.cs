@@ -20,14 +20,18 @@ namespace SNEngine.Editor
         {
             if (!AreIdentityFilesPresent())
             {
+#if SNEENGINE_DEVELOPER
                 NovelGameDebug.Log("SNEngine Security: Identity files not found. Generating new identity...");
 
+#endif
                 // Generate new identity
                 GenerateIdentity();
             }
             else
             {
+#if SNEENGINE_DEVELOPER
                 NovelGameDebug.Log("SNEngine Security: Identity files already exist.");
+#endif
             }
         }
 

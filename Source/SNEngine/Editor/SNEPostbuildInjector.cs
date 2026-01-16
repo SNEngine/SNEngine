@@ -199,9 +199,10 @@ namespace SNEngine.Editor
             // Use the SNEInjectorLauncher to run the injector
             // The injector will handle terminating any running instances, updating both executable and streaming assets
             SNEInjectorLauncher.InjectIdentity(executablePath, projectGuid, gameName, platformName);
-
+#if SNEENGINE_DEVELOPER
             NovelGameDebug.Log($"SNEngine Security: Successfully injected identity into {executablePath}");
             NovelGameDebug.Log($"SNEngine Security: Unity will now start the game as part of Build and Run process");
+#endif
         }
     }
 }

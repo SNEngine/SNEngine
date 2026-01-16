@@ -10,17 +10,26 @@ namespace SNEngine.Editor
         {
             // Prepare the arguments for the injector
             string targetPath = Path.GetDirectoryName(executablePath);
-            string args = $"\"{targetPath}\" \"{projectGuid}\" \"{gameName}\" \"{platformName}\"";
 
-            // Get the path to the Resources folder to find the identity file
+            // Get the path to the Resources folder to find the identity file and public key
             string projectPath = Application.dataPath;
             string resourcesPath = Path.Combine(Path.GetDirectoryName(projectPath), "Assets", "SNEngine", "Source", "SNEngine", "Resources");
             string identityFilePath = Path.Combine(resourcesPath, "sne_identity.bytes");
+            string publicKeyFilePath = Path.Combine(resourcesPath, "sne_public_key.bin"); // Expected public key file
+
+            // Check if public key file exists
+            if (!File.Exists(publicKeyFilePath))
+            {
+                Debug.LogError($"SNEngine Security: Public key file not found at {publicKeyFilePath}. Injector requires a public key file.");
+                return;
+            }
+
+            string args = $"\"{targetPath}\" \"{projectGuid}\" \"{gameName}\" \"{platformName}\" \"{publicKeyFilePath}\"";
 
             // Get the path where the injector executable is located
             string editorFolder = Directory.GetParent(projectPath).FullName;
             string injectorPath = Path.Combine(editorFolder, "Assets", "SNEngine", "Source", "SNEngine", "Editor", "Utils", "SNE_Injector", "Windows");
-            
+
             // Copy the identity file to the injector's directory so it can be found
             string injectorIdentityPath = Path.Combine(injectorPath, "sne_identity.bytes");
             if (File.Exists(identityFilePath))
@@ -34,6 +43,10 @@ namespace SNEngine.Editor
                 return;
             }
 
+            // Also copy the public key file to the injector's directory
+            string injectorPublicKeyPath = Path.Combine(injectorPath, "sne_public_key.bin");
+            CopyLargeFile(publicKeyFilePath, injectorPublicKeyPath);
+
             // Launch the injector executable using the base class method
             // Looking for the injector in the Utils/SNE_Injector folder structure
             LaunchExecutable("SNE_Injector", "SNE_Injector.exe", "SNE_Injector", args, (log) => {
@@ -44,17 +57,22 @@ namespace SNEngine.Editor
                     Debug.Log($"SNE_Injector: {log}");
             });
 
-            // Optionally remove the copied file after injection (optional cleanup)
+            // Optionally remove the copied files after injection (optional cleanup)
             try
             {
                 if (File.Exists(injectorIdentityPath))
                 {
                     File.Delete(injectorIdentityPath);
                 }
+
+                if (File.Exists(injectorPublicKeyPath))
+                {
+                    File.Delete(injectorPublicKeyPath);
+                }
             }
             catch (System.Exception e)
             {
-                Debug.LogWarning($"Could not delete temporary identity file: {e.Message}");
+                Debug.LogWarning($"Could not delete temporary files: {e.Message}");
             }
         }
         
