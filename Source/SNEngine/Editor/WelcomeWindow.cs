@@ -132,7 +132,8 @@ namespace SNEngine.Editor
             AutoIconAssigner.Assign();
             InstallTextMeshProEssentials();
 
-            // Generate public key for the security system
+            // Generate public key for the security system (this will happen automatically during build too)
+            // Note: Starting from this version, public key generation also occurs during pre-build phase
             string productName = string.IsNullOrEmpty(PlayerSettings.productName) ? "MyGame" : PlayerSettings.productName;
             string companyName = PlayerSettings.companyName;
 
@@ -143,7 +144,8 @@ namespace SNEngine.Editor
                     "Company Name Required",
                     "Please set a proper company name in Project Settings > Player before generating the public key.\n\n" +
                     "Current company name is 'DefaultCompany' which is not recommended for production use.\n\n" +
-                    "Click 'Yes' to continue anyway with default values, or 'No' to set it first.",
+                    "Click 'Yes' to continue anyway with default values, or 'No' to set it first.\n\n" +
+                    "Note: Public key will also be generated automatically during the build process.",
                     "Yes, Continue Anyway",
                     "No, Set Company Name First"
                 );

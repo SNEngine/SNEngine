@@ -29,8 +29,9 @@ namespace SNEngine.Editor
         {
             string projectPath = Application.dataPath;
             string baseDirectory = Directory.GetParent(projectPath).FullName;
-            
+
             // Find the identity files that were generated
+            // Note: Public key should have been generated during pre-build phase
             string resourcesPath = Path.Combine(baseDirectory, "Assets", "SNEngine", "Source", "SNEngine", "Resources");
             string identityPath = Path.Combine(resourcesPath, "sne_identity.bytes");
             string configPath = Path.Combine(resourcesPath, "sne_config.txt");
