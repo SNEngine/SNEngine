@@ -35,6 +35,8 @@
 
 1.2. للمطور الحق في استخدام الإطار لتطوير منتجات تجارية، وتحديد الأسعار بشكل مستقل، وتوزيعها دون دفع رسوم ترخيص إلى مالك SNEngine.
 
+1.2.1. المساهمات الطوعية: على الرغم من الطبيعة المجانية من حيث حقوق الملكية لهذا الترخيص، يحق للمستخدم تقديم مساهمات مالية طوعية (تبرعات) إلى مالك الترخيص. تتم هذه المدفوعات على أساس طوعي تمامًا كإشعار لدعم تطوير SNEngine. قيام أو عدم قيام المستخدم بتقديم مثل هذه المساهمات لا يؤثر على نطاق الحقوق الممنوحة بموجب هذا الترخيص.
+
 1.3. حقوق الملكية الفكرية للمحتوى الذي أنشأه المطور (كود اللعبة، والرسومات، والموسيقى) تنتمي بشكل حصري إلى المطور.
 
 1.4. **تجارة التكنولوجيا (الانقسامات):** يُسمح ببيع إطار SNEngine مباشرة فقط في حالة إنشاء انقسام.
@@ -457,6 +459,8 @@
 1.1. Use of SNEngine or Software Products based on it constitutes full agreement with this license.
 
 1.2. The Developer has the right to use the framework to create commercial products, set their own prices independently, and distribute them without paying royalties to the SNEngine Licensor.
+
+1.2.1. Voluntary Contributions: Notwithstanding the royalty-free nature of this License, the Licensee is entitled to make voluntary financial contributions (donations) to the Licensor. Such payments are made on a strictly voluntary basis as a gesture of support for the further development of SNEngine. The making or absence of such contributions does not affect the scope of rights granted under this License.
 
 1.3. Intellectual property rights to author content (game code, graphics, music) created by the Developer belong exclusively to the Developer.
 
@@ -881,6 +885,8 @@ For legal inquiries, complaints, or official notices regarding this license, ple
 
 1.2. 開発者は、商用製品を作成するためにフレームワークを使用し、独自に価格を設定し、SNEngineライセンサーにロイヤリティを支払うことなく配布する権利を有します。
 
+1.2.1. 自発的寄付：本ライセンスのロイヤリティフリーの性質にかかわらず、ライセンシーはライセンサーに対して自発的な金融寄付（寄付金）を行う権利を有します。このような支払いは、SNEngineのさらなる開発を支援するという意味での純粋に自発的なものとして行われます。このような寄付の有無は、本ライセンスに基づく権利の範囲に影響を与えません。
+
 1.3. 開発者が作成した著作物（ゲームコード、グラフィックス、音楽）に関する知的財産権は、開発者に専属的に帰属します。
 
 1.4. **技術の商業化（フォーク）：** SNEngineフレームワーク自体の直接販売は、フォークを作成する場合に限り許可されます。
@@ -1304,6 +1310,8 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
 
 1.2. Разработчик имеет право использовать фреймворк для создания коммерческих продуктов, устанавливать свои собственные цены независимо и распространять их без уплаты роялти лицензиару SNEngine.
 
+1.2.1. Добровольные взносы: Несмотря на безвозмездный характер настоящей Лицензии, Лицензиат имеет право делать добровольные финансовые взносы (пожертвования) Лицензиару. Такие платежи осуществляются на строго добровольной основе в качестве жеста поддержки дальнейшего развития SNEngine. Совершение или отсутствие таких взносов не влияет на объем прав, предоставленных в соответствии с настоящей Лицензией.
+
 1.3. Права на интеллектуальную собственность на авторский контент (игровой код, графика, музыка), созданный Разработчиком, принадлежат исключительно Разработчику.
 
 1.4. **Коммерциализация технологии (Форки):** Прямая продажа фреймворка SNEngine разрешена только в случае создания Форка.
@@ -1726,6 +1734,8 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
 1.1. 使用SNEngine或基于它的软件产品即表示完全同意本许可证。
 
 1.2. 开发者有权使用该框架创建商业产品，独立设定价格并进行分发，无需向SNEngine许可方支付版税。
+
+1.2.1. 自愿捐款：尽管本许可证是免版税的，被许可方有权向许可方进行自愿的财务捐款（捐赠）。这些付款是纯粹自愿的基础上进行的，作为支持SNEngine进一步发展的表示。是否进行此类捐款并不影响根据本许可证授予的权利范围。
 
 1.3. 开发者创建的作者内容（游戏代码、图形、音乐）的知识产权专属开发者所有。
 
