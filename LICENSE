@@ -2,7 +2,7 @@
 
 #--------------------------------------------------
 
-# ترخيص SNENGINE العالمي العام والخاصة (الإصدار 3.0-2026)
+# ترخيص SNENGINE العالمي العام والخاصة (الإصدار 3.1-2026)
 **تاريخ النفاذ: 25 يناير 2026**
 
 ## التعريفات
@@ -350,6 +350,44 @@
     متجر Epic Games (Epic Games): اتفاقية ترخيص المستخدم النهائي (EULA) — https://www.epicgames.com/site/en-US/privacypolicy
 
     GOG (CD Projekt): اتفاقية مستخدم GOG (User Agreement) — https://www.gog.com/en/support/policies/gog_user_agreement
+
+    AppGallery (هواوي): اتفاقية توزيع AppGallery (AppGallery Distribution Agreement) — https://developer.huawei.com/
+
+    متجر Google Play (Google): اتفاقية توزيع مطوّري Google Play (Google Play Developer Distribution Agreement) — https://play.google.com/about/developer-distribution-agreement.html
+
+    متجر تطبيقات Apple (Apple): اتفاقية ترخيص برنامج مطوّر Apple (Apple Developer Program License Agreement) — https://developer.apple.com/support/downloads/terms/apple-developer-program-license-agreement.pdf
+
+    متجر Microsoft (Microsoft): اتفاقية مطوّر متجر Microsoft (Microsoft Store Developer Agreement) — https://docs.microsoft.com/en-us/legal/windows/uwp/dev-center/store-developer-agreement
+
+    متجر PlayStation (سوني): شروط خدمة PlayStation™Store (PlayStation™Store Terms of Service) — https://www.playstation.com/en-us/terms-of-service/
+
+    متجر Xbox (Microsoft): شروط استخدام Xbox Live (Xbox Live Terms of Use) — https://www.xbox.com/en-US/legal/terms
+
+    متجر Nintendo eShop (Nintendo): اتفاقية خدمات Nintendo Switch عبر الإنترنت (Nintendo Switch Online Services Agreement) — https://www.nintendo.com/consumer/wfc/us/terms_conditions.jsp
+
+    متجر Amazon Appstore (Amazon): اتفاقية خدمات مطوّر Amazon (Amazon Developer Services Agreement) — https://developer.amazon.com/support/legal
+
+    متجر VK Play (VK): اتفاقية مطوّر VK Play (VK Play Developer Agreement) — https://vkplay.ru/devterms
+
+    منصة Yandex Game Platform (Yandex): اتفاقية مطوّر ألعاب ياندكس (Yandex Games Developer Agreement) — https://yandex.ru/dev/games/
+
+    منصة Itch.io (Itch.io): اتفاقية مطوّر Itch.io (Itch.io Developer Agreement) — https://itch.io/terms
+
+    متجر Discord Store (Discord): اتفاقية مطوّر متجر Discord (Discord Store Developer Agreement) — https://discord.com/developers/docs/policy
+
+    منصة Origin/EA App (Electronic Arts): اتفاقية مطوّر Origin/EA (Origin/EA Developer Agreement) — https://www.ea.com/ea-play/terms-and-conditions
+
+    منصة Ubisoft Connect (Ubisoft): اتفاقية مطوّر Ubisoft Connect (Ubisoft Connect Developer Agreement) — https://legal.ubi.com/
+
+    مشغّل Rockstar Games Launcher (Rockstar Games): اتفاقية مطوّر مشغّل Rockstar Games (Rockstar Games Launcher Developer Agreement) — https://www.rockstargames.com/eula
+
+    منصة Battle.net (Blizzard Entertainment): اتفاقية مطوّر Battle.net (Battle.net Developer Agreement) — https://www.blizzard.com/en-us/legal/subscription-and-customer-agreement
+
+    RuStore (RuStore LLC): اتفاقية مطوّر RuStore (RuStore Developer Agreement) — https://rststore.ru/
+
+44.1.1. **الالتزام بشروط المنصات غير المدرجة:** إذا لم تكن منصة التوزيع الرقمية المُستخدمة لترخيص المنتج مذكورة في القائمة أعلاه، يجب على المستفيد مع ذلك الالتزام الكامل بشروط اتفاقية الترخيص الخاصة بتلك المنصة.
+
+44.1.2. **صلاحية روابط الاتفاقات:** إذا أصبحت عناوين URL للاتفاقيات المذكورة في هذا القسم 44.1 غير صالحة أو قديمة لأي سبب من الأسباب بعد نشر هذا الترخيص، يجب على المستفيد إخطار المالك فورًا والتحقق يدويًا من الشروط الحديثة للاتفاقيات المقابلة.
 
 44.2. **المسؤولية عن المعرفة:** يتحمل المستفيد (المطور) المسؤولية الوحيدة عن مراقبة التغييرات في قواعد المنصات المذكورة أعلاه. استخدام SNEngine لتجنب أو خرق سياسات الموزعين (مثل قواعد نشر محتوى 18+ أو أنظمة جمع البيانات) يُعد انتهاكًا جسيمًا لهذا الترخيص.
 
@@ -736,6 +774,24 @@ For more information about Unity's terms, visit: https://unity.com/legal/terms-o
 
     GOG (CD Projekt): GOG User Agreement — https://www.gog.com/en/support/policies/gog_user_agreement
 
+    AppGallery (Huawei): AppGallery Distribution Agreement — https://developer.huawei.com/
+
+    Google Play Store (Google): Google Play Developer Distribution Agreement — https://play.google.com/about/developer-distribution-agreement.html
+
+    Apple App Store (Apple): Apple Developer Program License Agreement — https://developer.apple.com/support/downloads/terms/apple-developer-program-license-agreement.pdf
+
+    Microsoft Store (Microsoft): Microsoft Store Developer Agreement — https://docs.microsoft.com/en-us/legal/windows/uwp/dev-center/store-developer-agreement
+
+    PlayStation Store (Sony): PlayStation™Store Terms of Service — https://www.playstation.com/en-us/terms-of-service/
+
+    Xbox Store (Microsoft): Xbox Live Terms of Use — https://www.xbox.com/en-US/legal/terms
+
+    Nintendo eShop (Nintendo): Nintendo Switch Online Services Agreement — https://www.nintendo.com/consumer/wfc/us/terms_conditions.jsp
+
+    Amazon Appstore (Amazon): Amazon Developer Services Agreement — https://developer.amazon.com/support/legal
+
+    RuStore (RuStore LLC): RuStore Developer Agreement — https://rststore.ru/
+
 44.2. **Responsibility for Familiarization:** The Licensee (Developer) bears sole responsibility for monitoring changes in the rules of the above-mentioned platforms. Use of SNEngine to bypass or violate distributor policies (for example, content publication rules for 18+ content or data collection systems) is a gross violation of this License.
 
 44.3. **Anti-Cheat Policy Alignment:** If a platform (for example, Steam) presents specific requirements for disclosure of information about the use of third-party anti-cheat systems or HWID identification means, the Developer is obliged to fill out the appropriate forms in the publisher console, indicating SNEngine as the provider of protection technologies. Failure to fulfill this requirement, which led to the removal of the Product from the store, is the exclusive fault of the Developer.
@@ -772,7 +828,7 @@ For legal inquiries, complaints, or official notices regarding this license, ple
 
 #--------------------------------------------------
 
-# SNENGINE グローバルパブリック＆プロプライエタリライセンス（v3.0-2026）
+# SNENGINE グローバルパブリック＆プロプライエタリライセンス（v3.1-2026）
 **発効日：2026年1月25日**
 
 ## 定義
@@ -1121,6 +1177,44 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
 
     GOG（CD Projekt）：GOGユーザー契約 — https://www.gog.com/en/support/policies/gog_user_agreement
 
+    AppGallery（Huawei）：AppGallery配布契約 — https://developer.huawei.com/
+
+    Google Play Store（Google）：Google Play開発者配布契約 — https://play.google.com/about/developer-distribution-agreement.html
+
+    Apple App Store（Apple）：Apple開発者プログラム使用許諾契約 — https://developer.apple.com/support/downloads/terms/apple-developer-program-license-agreement.pdf
+
+    Microsoft Store（Microsoft）：Microsoft Store開発者契約 — https://docs.microsoft.com/en-us/legal/windows/uwp/dev-center/store-developer-agreement
+
+    PlayStation Store（Sony）：PlayStation™Store利用規約 — https://www.playstation.com/en-us/terms-of-service/
+
+    Xbox Store（Microsoft）：Xbox Live利用規約 — https://www.xbox.com/en-US/legal/terms
+
+    Nintendo eShop（Nintendo）：Nintendo Switchオンラインサービス契約 — https://www.nintendo.com/consumer/wfc/us/terms_conditions.jsp
+
+    Amazon Appstore（Amazon）：Amazon開発者サービス契約 — https://developer.amazon.com/support/legal
+
+    VK Play（VK）：VK Play開発者契約 — https://vkplay.ru/devterms
+
+    Yandex Game Platform（Yandex）：ヤンデックスゲーム開発者契約 — https://yandex.ru/dev/games/
+
+    Itch.io（Itch.io）：Itch.io開発者契約 — https://itch.io/terms
+
+    Discord Store（Discord）：Discordストア開発者契約 — https://discord.com/developers/docs/policy
+
+    Origin/EA App（Electronic Arts）：Origin/EAアプリ開発者契約 — https://www.ea.com/ea-play/terms-and-conditions
+
+    Ubisoft Connect（Ubisoft）：ユービーソフトコネクト開発者契約 — https://legal.ubi.com/
+
+    Rockstar Games Launcher（Rockstar Games）：Rockstar Gamesランチャー開発者契約 — https://www.rockstargames.com/eula
+
+    Battle.net（Blizzard Entertainment）：Battle.net開発者契約 — https://www.blizzard.com/en-us/legal/subscription-and-customer-agreement
+
+    RuStore（RuStore LLC）：RuStore開発者契約 — https://rststore.ru/
+
+44.1.1. **未リストアッププラットフォームの遵守：** 製品を配布するデジタルプラットフォームが上記リストに記載されていない場合でも、ライセンシーは当該プラットフォームのライセンス契約のすべての条項を完全に遵守する必要があります。
+
+44.1.2. **契約リンクの有効性：** 何らかの理由で、本第44.1項に記載された契約のURLアドレスが本ライセンス発行後に無効または時代遅れになった場合、ライセンシーは直ちにライセンサーに通知し、手動で該当契約の最新条項を確認する必要があります。
+
 44.2. **理解の責任：** ライセンシー（開発者）は、上記プラットフォームのルール変更を監視する単独の責任を負います。SNEngineを使用してディストリビューターポリシー（18+コンテンツの公開ルールやデータ収集システムなど）を回避または違反することは、本ライセンスの重大な違反です。
 
 44.3. **アンチチートポリシーの整合：** プラットフォーム（Steamなど）が、サードパーティアンチチートシステムまたはHWID識別手段の使用に関する情報を開示する具体的な要件を提示する場合、開発者はパブリッシャーコンソールで適切なフォームに入力し、SNEngineを保護技術プロバイダーとして指定する義務を負います。これによりストアからの製品削除を招いた要件の未履行は、開発者の単独の過失です。
@@ -1157,7 +1251,7 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
 
 #--------------------------------------------------
 
-# ГЛОБАЛЬНАЯ ОТКРЫТАЯ И СОБСТВЕННАЯ ЛИЦЕНЗИЯ SNENGINE (v3.0-2026)
+# ГЛОБАЛЬНАЯ ОТКРЫТАЯ И СОБСТВЕННАЯ ЛИЦЕНЗИЯ SNENGINE (v3.1-2026)
 **Дата вступления в силу: 25 января 2026 года**
 
 ## ОПРЕДЕЛЕНИЯ
@@ -1506,6 +1600,44 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
 
     GOG (CD Projekt): Пользовательское соглашение GOG (User Agreement) — https://www.gog.com/en/support/policies/gog_user_agreement
 
+    AppGallery (Huawei): Соглашение о распространении AppGallery (AppGallery Distribution Agreement) — https://developer.huawei.com/
+
+    Google Play Store (Google): Соглашение разработчика Google Play (Google Play Developer Distribution Agreement) — https://play.google.com/about/developer-distribution-agreement.html
+
+    Apple App Store (Apple): Лицензионное соглашение программы разработчика Apple (Apple Developer Program License Agreement) — https://developer.apple.com/support/downloads/terms/apple-developer-program-license-agreement.pdf
+
+    Microsoft Store (Microsoft): Соглашение разработчика Microsoft Store (Microsoft Store Developer Agreement) — https://docs.microsoft.com/en-us/legal/windows/uwp/dev-center/store-developer-agreement
+
+    PlayStation Store (Sony): Условия использования PlayStation™Store (PlayStation™Store Terms of Service) — https://www.playstation.com/en-us/terms-of-service/
+
+    Xbox Store (Microsoft): Условия использования Xbox Live (Xbox Live Terms of Use) — https://www.xbox.com/en-US/legal/terms
+
+    Nintendo eShop (Nintendo): Соглашение об онлайн-сервисах Nintendo Switch (Nintendo Switch Online Services Agreement) — https://www.nintendo.com/consumer/wfc/us/terms_conditions.jsp
+
+    Amazon Appstore (Amazon): Соглашение разработчика Amazon (Amazon Developer Services Agreement) — https://developer.amazon.com/support/legal
+
+    VK Play (VK): Соглашение разработчика VK Play (VK Play Developer Agreement) — https://vkplay.ru/devterms
+
+    Yandex Game Platform (Yandex): Соглашение разработчика Яндекс Игр (Yandex Games Developer Agreement) — https://yandex.ru/dev/games/
+
+    Itch.io (Itch.io): Соглашение разработчика Itch.io (Itch.io Developer Agreement) — https://itch.io/terms
+
+    Discord Store (Discord): Соглашение разработчика Discord Store (Discord Developer Agreement) — https://discord.com/developers/docs/policy
+
+    Origin/EA App (Electronic Arts): Соглашение разработчика Origin/EA App (Origin Developer Agreement) — https://www.ea.com/ea-play/terms-and-conditions
+
+    Ubisoft Connect (Ubisoft): Соглашение разработчика Ubisoft Connect (Ubisoft Developer Agreement) — https://legal.ubi.com/
+
+    Rockstar Games Launcher (Rockstar Games): Соглашение разработчика Rockstar Games Launcher (Rockstar Developer Agreement) — https://www.rockstargames.com/eula
+
+    Battle.net (Blizzard Entertainment): Соглашение разработчика Battle.net (Battle.net Developer Agreement) — https://www.blizzard.com/en-us/legal/subscription-and-customer-agreement
+
+    RuStore (RuStore LLC): Соглашение разработчика RuStore (RuStore Developer Agreement) — https://rststore.ru/
+
+44.1.1. **Соблюдение условий неуказанных платформ:** Если цифровая платформа, на которой распространяется Продукт, не указана в вышеизложенном перечне, Лицензиат тем не менее обязуется соблюдать условия лицензионного соглашения соответствующей платформы в полном объеме.
+
+44.1.2. **Актуальность ссылок на соглашения:** Если по каким-либо причинам URL-адреса соглашений, указанные в настоящем разделе 44.1, стали недействительными или устаревшими с момента публикации настоящей лицензии, Лицензиат обязан незамедлительно сообщить об этом Лицензиару и самостоятельно проверить актуальные условия соответствующих соглашений вручную.
+
 44.2. **Ответственность за ознакомление:** Лицензиат (Разработчик) несет единоличную ответственность за мониторинг изменений в правилах вышеуказанных площадок. Использование SNEngine для обхода или нарушения политик дистрибьюторов (например, правил публикации контента 18+ или систем сбора данных) является грубым нарушением настоящей Лицензии.
 
 44.3. **Согласование античит-политик:** Если площадка (например, Steam) предъявляет специфические требования к раскрытию информации об использовании сторонних античит-систем или средств HWID-идентификации, Разработчик обязан заполнить соответствующие формы в консоли издателя, указав SNEngine в качестве поставщика технологий защиты. Невыполнение этого требования, повлекшее удаление Продукта из магазина, является исключительной виной Разработчика.
@@ -1542,7 +1674,7 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
 
 #--------------------------------------------------
 
-# SNENGINE全球公共及专有许可证（v3.0-2026）
+# SNENGINE全球公共及专有许可证（v3.1-2026）
 **生效日期：2026年1月25日**
 
 ## 定义
@@ -1894,6 +2026,44 @@ Unityの条件の詳細については、https://unity.com/legal/terms-of-servic
     Epic Games Store（Epic Games）：最终用户许可协议（EULA）——https://www.epicgames.com/site/en-US/privacypolicy
 
     GOG（CD Projekt）：GOG用户协议——https://www.gog.com/en/support/policies/gog_user_agreement
+
+    AppGallery（华为）：AppGallery分发协议——https://developer.huawei.com/
+
+    Google Play Store（Google）：Google Play开发者分发协议——https://play.google.com/about/developer-distribution-agreement.html
+
+    Apple App Store（Apple）：Apple开发者计划许可协议——https://developer.apple.com/support/downloads/terms/apple-developer-program-license-agreement.pdf
+
+    Microsoft Store（Microsoft）：Microsoft Store开发者协议——https://docs.microsoft.com/en-us/legal/windows/uwp/dev-center/store-developer-agreement
+
+    PlayStation Store（Sony）：PlayStation™Store服务条款——https://www.playstation.com/en-us/terms-of-service/
+
+    Xbox Store（Microsoft）：Xbox Live使用条款——https://www.xbox.com/en-US/legal/terms
+
+    Nintendo eShop（Nintendo）：Nintendo Switch在线服务协议——https://www.nintendo.com/consumer/wfc/us/terms_conditions.jsp
+
+    Amazon Appstore（Amazon）：Amazon开发者服务协议——https://developer.amazon.com/support/legal
+
+    VK Play（VK）：VK Play开发者协议——https://vkplay.ru/devterms
+
+    Yandex Game Platform（Yandex）：Yandex游戏开发者协议——https://yandex.ru/dev/games/
+
+    Itch.io（Itch.io）：Itch.io开发者协议——https://itch.io/terms
+
+    Discord Store（Discord）：Discord商店开发者协议——https://discord.com/developers/docs/policy
+
+    Origin/EA App（Electronic Arts）：Origin/EA应用程序开发者协议——https://www.ea.com/ea-play/terms-and-conditions
+
+    Ubisoft Connect（Ubisoft）：育碧连接开发者协议——https://legal.ubi.com/
+
+    Rockstar Games Launcher（Rockstar Games）：Rockstar游戏启动器开发者协议——https://www.rockstargames.com/eula
+
+    Battle.net（暴雪娱乐）：Battle.net开发者协议——https://www.blizzard.com/en-us/legal/subscription-and-customer-agreement
+
+    RuStore（RuStore LLC）：RuStore开发者协议——https://rststore.ru/
+
+44.1.1. **未列明平台的协议遵循：** 如果分发产品的数字平台未在上述列表中列出，被许可方仍须完全遵守相应平台许可协议的所有条款。
+
+44.1.2. **协议链接的有效性：** 如果由于任何原因，本第44.1节中所列协议的URL地址在本许可证发布后变得无效或过时，被许可方应立即通知许可方，并手动检查相应协议的最新条款。
 
 44.2. **熟悉责任：** 被许可方（开发者）独自承担监控上述平台规则变更的责任。使用SNEngine绕过或违反分销商政策（例如18+内容发布规则或数据收集系统）是对本许可证的重大违反。
 
