@@ -1,5 +1,5 @@
-# SNENGINE GLOBAL PUBLIC & PROPRIETARY LICENSE (v3.0-2026)
-**Effective Date: January 25, 2026**
+# SNENGINE GLOBAL PUBLIC & PROPRIETARY LICENSE (v3.1-2026)
+**Effective Date: January 27, 2026**
 
 ## DEFINITIONS
 **SNEngine:** The software framework known as "SNEngine" including all source code, binary files, documentation, and associated materials.
@@ -290,58 +290,58 @@ For more information about Unity's terms, visit: https://unity.com/legal/terms-o
 
 37.3. **Feedback and Ownership:** Any ideas, suggestions, bug reports, or code modifications (collectively "Feedback") submitted by the Licensee to the Licensor become the exclusive property of the Licensor. The Licensee hereby assigns all rights to such Feedback to the Licensor at no cost, including the right to incorporate them into future versions of the Software without any compensation to the Licensee.
 
-## 38. ARTIFICIAL INTELLIGENCE TECHNOLOGY SAFEGUARDS
-38.1. **AI Training Ban:** It is strictly prohibited to use SNEngine Software, its source code, data structures, or algorithms for training, fine-tuning, or testing machine learning systems, neural networks, or artificial intelligence (including but not limited to: GitHub Copilot, ChatGPT, Claude, and equivalents). Using SNEngine code as input data (data scraping) for generative models constitutes a material breach of this License.
+## 39. ARTIFICIAL INTELLIGENCE TECHNOLOGY SAFEGUARDS
+39.1. **AI Training Ban:** It is strictly prohibited to use SNEngine Software, its source code, data structures, or algorithms for training, fine-tuning, or testing machine learning systems, neural networks, or artificial intelligence (including but not limited to: GitHub Copilot, ChatGPT, Claude, and equivalents). Using SNEngine code as input data (data scraping) for generative models constitutes a material breach of this License.
 
-## 39. TECHNICAL LIMITATIONS AND SECURITY
-39.1. **Decompilation and Reverse Engineering Prohibition:** The Licensee has no right to study the structure of the Software, decompile, disassemble, decrypt, or otherwise attempt to derive the source code of SNEngine executable files, except in cases expressly permitted by law. Any attempt to circumvent security systems or analyze HWID interaction protocols is equivalent to hacking and leads to cancellation of usage rights.
+## 40. TECHNICAL LIMITATIONS AND SECURITY
+40.1. **Decompilation and Reverse Engineering Prohibition:** The Licensee has no right to study the structure of the Software, decompile, disassemble, decrypt, or otherwise attempt to derive the source code of SNEngine executable files, except in cases expressly permitted by law. Any attempt to circumvent security systems or analyze HWID interaction protocols is equivalent to hacking and leads to cancellation of usage rights.
 
-39.2. **High-Risk Usage:** SNEngine Software is not designed or intended for use in fail-safe environments where software failure could lead to human death, injury, or catastrophic environmental damage. The use of the Software in aviation control systems, nuclear facilities, life-support medical equipment, and unmanned transportation is prohibited.
+40.2. **High-Risk Usage:** SNEngine Software is not designed or intended for use in fail-safe environments where software failure could lead to human death, injury, or catastrophic environmental damage. The use of the Software in aviation control systems, nuclear facilities, life-support medical equipment, and unmanned transportation is prohibited.
 
-## 40. RELATIONSHIP BETWEEN LICENSEE AND END USER (EULA)
-40.1. **Notification Obligation:** The Licensee (Developer) is obligated to include in their End User License Agreement (Player) clauses notifying of the presence of SNEngine technologies in the Product. The Developer must ensure that the Player accepts the terms of use of identification and data protection technologies before the start of gameplay.
+## 41. RELATIONSHIP BETWEEN LICENSEE AND END USER (EULA)
+41.1. **Notification Obligation:** The Licensee (Developer) is obligated to include in their End User License Agreement (Player) clauses notifying of the presence of SNEngine technologies in the Product. The Developer must ensure that the Player accepts the terms of use of identification and data protection technologies before the start of gameplay.
 
-40.2. **Use of Hardware Identifiers (HWID):** The Player must be notified that the Product uses SNEngine technology to collect a unique digital hardware fingerprint (HWID) to protect against unauthorized modifications, cheating, and hacking. The Licensee (Developer) is fully responsible for compliance of this data collection with local privacy laws (such as GDPR, CCPA, or Russian personal data laws).
+41.2. **Use of Hardware Identifiers (HWID):** The Player must be notified that the Product uses SNEngine technology to collect a unique digital hardware fingerprint (HWID) to protect against unauthorized modifications, cheating, and hacking. The Licensee (Developer) is fully responsible for compliance of this data collection with local privacy laws (such as GDPR, CCPA, or Russian personal data laws).
 
-40.3. **Right to Access Restriction (HWID Lock):** The Licensee has the right to use SNEngine tools to permanently block access to the Product at the hardware level in case of violations detected from the Player. The Developer makes the decision to block access solely and is responsible for any Player claims related to access restrictions or loss of in-game property.
+41.3. **Right to Access Restriction (HWID Lock):** The Licensee has the right to use SNEngine tools to permanently block access to the Product at the hardware level in case of violations detected from the Player. The Developer makes the decision to block access solely and is responsible for any Player claims related to access restrictions or loss of in-game property.
 
-40.4. **Absence of Licensor Obligations to the Player:** The Player acknowledges that the Licensor (Author of SNEngine) is not a party to the agreement between the Player and the Developer. The Licensor does not provide technical support to Players, does not consider complaints about blocks, and does not bear financial responsibility for any direct or indirect losses incurred by the Player during the use of the Product.
+41.4. **Absence of Licensor Obligations to the Player:** The Player acknowledges that the Licensor (Author of SNEngine) is not a party to the agreement between the Player and the Developer. The Licensor does not provide technical support to Players, does not consider complaints about blocks, and does not bear financial responsibility for any direct or indirect losses incurred by the Player during the use of the Product.
 
-40.5. **Disclaimer of Compatibility Claims:** The Licensee must convey to the Player that the protection technology functions on an "as is" basis. Neither the Developer nor the Author of SNEngine guarantees perfect compatibility with all hardware configurations, peripheral devices, or third-party software (antivirus, drivers) installed on the Player's side.
+41.5. **Disclaimer of Compatibility Claims:** The Licensee must convey to the Player that the protection technology functions on an "as is" basis. Neither the Developer nor the Author of SNEngine guarantees perfect compatibility with all hardware configurations, peripheral devices, or third-party software (antivirus, drivers) installed on the Player's side.
 
-## 41. END USER (PLAYER) RIGHTS AND GUARANTEES
-41.1. **Right to Personal Use:** The Player receives a non-exclusive, limited, and non-transferable right to install and use the Product on their personal devices solely for personal non-commercial entertainment. This right remains with the Player as long as they comply with fair play rules and the terms of this Agreement.
+## 42. END USER (PLAYER) RIGHTS AND GUARANTEES
+42.1. **Right to Personal Use:** The Player receives a non-exclusive, limited, and non-transferable right to install and use the Product on their personal devices solely for personal non-commercial entertainment. This right remains with the Player as long as they comply with fair play rules and the terms of this Agreement.
 
-41.2. **Right to Privacy Protection:** The Player has the right to have technical data (HWID) collected in the most anonymous way possible. SNEngine technology guarantees that hardware identifiers are converted to a one-way hash code before transmission or storage. The Licensor does not collect or store personal data of the Player, such as names, email addresses, or location data.
+42.2. **Right to Privacy Protection:** The Player has the right to have technical data (HWID) collected in the most anonymous way possible. SNEngine technology guarantees that hardware identifiers are converted to a one-way hash code before transmission or storage. The Licensor does not collect or store personal data of the Player, such as names, email addresses, or location data.
 
-41.3. **Right to Information:** The Player has the right to review the current version of SNEngine technology usage terms in the Product interface at any time. The Developer is obligated to notify the Player of significant changes in technical data collection methods if such changes affect the Player's privacy rights.
+42.3. **Right to Information:** The Player has the right to review the current version of SNEngine technology usage terms in the Product interface at any time. The Developer is obligated to notify the Player of significant changes in technical data collection methods if such changes affect the Player's privacy rights.
 
-41.4. **Right to Technical Stability:** The Player has the right to proper functioning of protection modules on officially supported operating systems. In case protection technologies (HWID Lock) cause critical errors preventing the Product from launching on properly functioning hardware, the Player has the right to contact the Developer's support service to resolve technical conflicts.
+42.4. **Right to Technical Stability:** The Player has the right to proper functioning of protection modules on officially supported operating systems. In case protection technologies (HWID Lock) cause critical errors preventing the Product from launching on properly functioning hardware, the Player has the right to contact the Developer's support service to resolve technical conflicts.
 
-41.5. **Right to Appeal Blocking:** In case of permanent hardware-level access blocking (HWID Ban), the Player has the right to request an explanation of the blocking reasons from the Developer. The Developer is obligated to consider such appeals according to their internal policy, however, the final decision on unblocking remains at the Developer's discretion and is not subject to appeal through the SNEngine Author.
+42.5. **Right to Appeal Blocking:** In case of permanent hardware-level access blocking (HWID Ban), the Player has the right to request an explanation of the blocking reasons from the Developer. The Developer is obligated to consider such appeals according to their internal policy, however, the final decision on unblocking remains at the Developer's discretion and is not subject to appeal through the SNEngine Author.
 
-## 42. INTERACTION WITH THIRD-PARTY ENVIRONMENTS AND OS LICENSES
-42.1. **Dependency on System Components and SDKs:** The Licensee acknowledges and agrees that SNEngine Software operates in close integration with development tools and libraries of operating systems (including but not limited to: Microsoft Windows SDK, .NET Runtime, MSVC Redistributable, DirectX, Vulkan, macOS Build Tools). These components are the exclusive intellectual property of their respective owners (Microsoft, Apple, Khronos Group, etc.).
+## 43. INTERACTION WITH THIRD-PARTY ENVIRONMENTS AND OS LICENSES
+43.1. **Dependency on System Components and SDKs:** The Licensee acknowledges and agrees that SNEngine Software operates in close integration with development tools and libraries of operating systems (including but not limited to: Microsoft Windows SDK, .NET Runtime, MSVC Redistributable, DirectX, Vulkan, macOS Build Tools). These components are the exclusive intellectual property of their respective owners (Microsoft, Apple, Khronos Group, etc.).
 
-42.2. **Priority of Third-Party License Agreements:** Use of SNEngine Software does not grant the Licensee any rights, licenses, or permissions to use third-party development tools or OS components. The Licensee bears sole responsibility for compliance with licensing terms of the respective OS manufacturers and third-party engines (e.g., Unity Terms of Service or Unreal Engine EULA). Any violation of third-party rights holders' terms when using SNEngine is the direct responsibility of the Licensee.
+43.2. **Priority of Third-Party License Agreements:** Use of SNEngine Software does not grant the Licensee any rights, licenses, or permissions to use third-party development tools or OS components. The Licensee bears sole responsibility for compliance with licensing terms of the respective OS manufacturers and third-party engines (e.g., Unity Terms of Service or Unreal Engine EULA). Any violation of third-party rights holders' terms when using SNEngine is the direct responsibility of the Licensee.
 
-42.3. **Cumulative Effect and License Collision:** In case of a conflict between the provisions of this License and the terms of the OS manufacturer's license or third-party software, the terms of the respective component owner take precedence regarding its use. The SNEngine Licensor is not responsible for technical failures, functionality limitations, or legal consequences caused by changes in policy or licenses of third-party rights holders.
+43.3. **Cumulative Effect and License Collision:** In case of a conflict between the provisions of this License and the terms of the OS manufacturer's license or third-party software, the terms of the respective component owner take precedence regarding its use. The SNEngine Licensor is not responsible for technical failures, functionality limitations, or legal consequences caused by changes in policy or licenses of third-party rights holders.
 
-42.4. **Transmission of Terms to End Users:** When distributing the finished Product to Players, the Licensee must consider that system libraries required for SNEngine operation are protected by their own EULAs from manufacturers. The Licensee is obligated to ensure proper inclusion of necessary notifications about third-party software in the Product distribution in accordance with the requirements of the rights holders of these components.
+43.4. **Transmission of Terms to End Users:** When distributing the finished Product to Players, the Licensee must consider that system libraries required for SNEngine operation are protected by their own EULAs from manufacturers. The Licensee is obligated to ensure proper inclusion of necessary notifications about third-party software in the Product distribution in accordance with the requirements of the rights holders of these components.
 
-42.5. **Disclaimer for Third-Party Environment:** The Licensor does not guarantee the operability of SNEngine Software in case of changes to OS architecture, updates to system libraries, or changes to security protocols by third-party manufacturers. All risks associated with incompatibility of SNEngine and updated versions of third-party software lie with the Licensee.
+43.5. **Disclaimer for Third-Party Environment:** The Licensor does not guarantee the operability of SNEngine Software in case of changes to OS architecture, updates to system libraries, or changes to security protocols by third-party manufacturers. All risks associated with incompatibility of SNEngine and updated versions of third-party software lie with the Licensee.
 
-## 43. INTERACTION WITH DIGITAL PLATFORMS (STEAM, EPIC GAMES STORE, ETC.)
-43.1. **Platform Independence:** The Licensee and Player acknowledge that digital platforms (hereinafter referred to as "Platforms"), such as Steam, Epic Games Store, GOG, and others, are independent legal entities with their own Subscriber Agreements (SSA) and terms of use. SNEngine technology is an additional layer of protection integrated into the Product and operates in parallel with Platform tools.
+## 44. INTERACTION WITH DIGITAL PLATFORMS (STEAM, EPIC GAMES STORE, ETC.)
+44.1. **Platform Independence:** The Licensee and Player acknowledge that digital platforms (hereinafter referred to as "Platforms"), such as Steam, Epic Games Store, GOG, and others, are independent legal entities with their own Subscriber Agreements (SSA) and terms of use. SNEngine technology is an additional layer of protection integrated into the Product and operates in parallel with Platform tools.
 
-43.2. **Product License Status upon Protection Trigger:** In case of SNEngine security system activation and subsequent blocking of access to gameplay at the hardware level (HWID Lock), the license to use the specific copy of the game purchased on the Platform is not formally cancelled and remains in the Player's library. However, the technical impossibility of launching the Product due to the Player's violation of security rules is recognized as a legitimate limitation of functionality.
+44.2. **Product License Status upon Protection Trigger:** In case of SNEngine security system activation and subsequent blocking of access to gameplay at the hardware level (HWID Lock), the license to use the specific copy of the game purchased on the Platform is not formally cancelled and remains in the Player's library. However, the technical impossibility of launching the Product due to the Player's violation of security rules is recognized as a legitimate limitation of functionality.
 
-43.3. **Responsibility to Platform:** SNEngine blocking may trigger automatic notifications to Platform systems (for example, Valve Anti-Cheat or similar). The Player acknowledges that any sanctions from the Platform, including but not limited to: public marks of blocking in the profile, limitation of social functions, or complete Platform account ban, are the result of the Player's own actions. All claims regarding such sanctions should be directed to the support service of the respective Platform.
+44.3. **Responsibility to Platform:** SNEngine blocking may trigger automatic notifications to Platform systems (for example, Valve Anti-Cheat or similar). The Player acknowledges that any sanctions from the Platform, including but not limited to: public marks of blocking in the profile, limitation of social functions, or complete Platform account ban, are the result of the Player's own actions. All claims regarding such sanctions should be directed to the support service of the respective Platform.
 
-43.4. **No Refund Policy:** Technical blocking of the Product by SNEngine means for violation of rules (cheating, hacking, decompilation) is not a basis for mandatory refund of funds through the Platform. The Licensee (Developer) and Licensor (SNEngine Author) are not responsible for the Platform's refund policy in case of discovery of dishonest use of the Product by the Player.
+44.4. **No Refund Policy:** Technical blocking of the Product by SNEngine means for violation of rules (cheating, hacking, decompilation) is not a basis for mandatory refund of funds through the Platform. The Licensee (Developer) and Licensor (SNEngine Author) are not responsible for the Platform's refund policy in case of discovery of dishonest use of the Product by the Player.
 
-## 44. COMPLIANCE WITH EXTERNAL PLATFORMS AND DISTRIBUTORS REQUIREMENTS
-44.1. **Platform Terms Priority:** The Licensee and End User (Player) confirm that the use of the Product within digital ecosystems is regulated not only by this License but also by global agreements of the respective platforms. In case of publication or acquisition of the Product on these resources, the Parties are obliged to comply with the terms of the following documents (including any subsequent updates):
+## 45. COMPLIANCE WITH EXTERNAL PLATFORMS AND DISTRIBUTORS REQUIREMENTS
+45.1. **Platform Terms Priority:** The Licensee and End User (Player) confirm that the use of the Product within digital ecosystems is regulated not only by this License but also by global agreements of the respective platforms. In case of publication or acquisition of the Product on these resources, the Parties are obliged to comply with the terms of the following documents (including any subsequent updates):
 
     Steam (Valve Corporation): Steam Subscriber Agreement — https://store.steampowered.com/subscriber_agreement/
 
@@ -383,31 +383,94 @@ For more information about Unity's terms, visit: https://unity.com/legal/terms-o
 
     RuStore (RuStore LLC): RuStore Developer Agreement — https://www.rustore.ru/help/legal/terms-of-use
 
-44.1.1. **Compliance with Unlisted Platforms:** If the digital platform on which the Product is distributed is not listed in the above list, the Licensee nevertheless undertakes to fully comply with the licensing agreement terms of the respective platform in full.
+45.1.1. **Compliance with Unlisted Platforms:** If the digital platform on which the Product is distributed is not listed in the above list, the Licensee nevertheless undertakes to fully comply with the licensing agreement terms of the respective platform in full.
 
-44.1.2. **Validity of Agreement Links:** If for any reason the URLs of the agreements listed in this section 44.1 become invalid or outdated since the publication of this License, the Licensee must immediately notify the Licensor and manually check the latest terms of the respective agreements.
+45.1.2. **Validity of Agreement Links:** If for any reason the URLs of the agreements listed in this section 45.1 become invalid or outdated since the publication of this License, the Licensee must immediately notify the Licensor and manually check the latest terms of the respective agreements.
 
-44.2. **Responsibility for Familiarization:** The Licensee (Developer) bears sole responsibility for monitoring changes in the rules of the above-mentioned platforms. Use of SNEngine to bypass or violate distributor policies (for example, content publication rules for 18+ content or data collection systems) is a gross violation of this License.
+45.2. **Responsibility for Familiarization:** The Licensee (Developer) bears sole responsibility for monitoring changes in the rules of the above-mentioned platforms. Use of SNEngine to bypass or violate distributor policies (for example, content publication rules for 18+ content or data collection systems) is a gross violation of this License.
 
-44.3. **Anti-Cheat Policy Alignment:** If a platform (for example, Steam) presents specific requirements for disclosure of information about the use of third-party anti-cheat systems or HWID identification means, the Developer is obliged to fill out the appropriate forms in the publisher console, indicating SNEngine as the provider of protection technologies. Failure to fulfill this requirement, which led to the removal of the Product from the store, is the exclusive fault of the Developer.
+45.3. **Anti-Cheat Policy Alignment:** If a platform (for example, Steam) presents specific requirements for disclosure of information about the use of third-party anti-cheat systems or HWID identification means, the Developer is obliged to fill out the appropriate forms in the publisher console, indicating SNEngine as the provider of protection technologies. Failure to fulfill this requirement, which led to the removal of the Product from the store, is the exclusive fault of the Developer.
 
-## 45. SURVIVAL CLAUSES
-45.1. **Survival of Obligations:** The provisions of this License that by their nature should survive termination or expiration of this License shall so survive, including but not limited to: Sections 5 (Intellectual Property Rights), 6 (Warranties and Disclaimers), 7 (Limitation of Liability), 8 (Indemnification), 10 (Governing Law and Dispute Resolution), 37 (Intellectual Property and Patent Protection), 38 (Artificial Intelligence Technology Safeguards), and 45 (Survival Clauses).
+## 46. SURVIVAL CLAUSES
+46.1. **Survival of Obligations:** The provisions of this License that by their nature should survive termination or expiration of this License shall so survive, including but not limited to: Sections 5 (Intellectual Property Rights), 6 (Warranties and Disclaimers), 7 (Limitation of Liability), 8 (Indemnification), 10 (Governing Law and Dispute Resolution), 37 (Intellectual Property and Patent Protection), 39 (Artificial Intelligence Technology Safeguards), and 46 (Survival Clauses).
 
-45.2. **Return or Destruction of Materials:** Upon termination of this License, the Licensee shall promptly return or destroy all copies of the Software and related materials in the Licensee's possession or control, except that the Licensee may retain archival copies for the sole purpose of establishing the scope of the Licensee's rights under this License.
+46.2. **Return or Destruction of Materials:** Upon termination of this License, the Licensee shall promptly return or destroy all copies of the Software and related materials in the Licensee's possession or control, except that the Licensee may retain archival copies for the sole purpose of establishing the scope of the Licensee's rights under this License.
 
-## 46. MISCELLANEOUS
-46.1. **Amendment:** This License may be amended only by a written instrument executed by both parties hereto, except that the Licensor may modify this License by posting a revised version of this License, and continued use of the Software after such posting shall constitute acceptance of such revision.
+## 47. MISCELLANEOUS
+47.1. **Amendment:** This License may be amended only by a written instrument executed by both parties hereto, except that the Licensor may modify this License by posting a revised version of this License, and continued use of the Software after such posting shall constitute acceptance of such revision.
 
-46.2. **Severability:** If any provision of this License is held to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect.
+47.2. **Severability:** If any provision of this License is held to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect.
 
-46.3. **Waiver:** No waiver of any provision of this License shall be deemed or shall constitute a waiver of any other provision.
+47.3. **Waiver:** No waiver of any provision of this License shall be deemed or shall constitute a waiver of any other provision.
 
-46.4. **Assignment:** The Licensee may not assign this License without the prior written consent of the Licensor, except that the Licensee may assign this License to an entity that acquires all or substantially all of the Licensee's business or assets.
+47.4. **Assignment:** The Licensee may not assign this License without the prior written consent of the Licensor, except that the Licensee may assign this License to an entity that acquires all or substantially all of the Licensee's business or assets.
 
-46.5. **Force Majeure:** Neither party shall be liable for any delay or failure to perform due to causes beyond its reasonable control, including but not limited to acts of God, war, terrorism, riots, embargoes, acts of civil or military authorities, fire, floods, accidents, strikes, or shortages of transportation facilities, fuel, energy, labor, or materials.
+47.5. **Force Majeure:** Neither party shall be liable for any delay or failure to perform due to causes beyond its reasonable control, including but not limited to acts of God, war, terrorism, riots, embargoes, acts of civil or military authorities, fire, floods, accidents, strikes, or shortages of transportation facilities, fuel, energy, labor, or materials.
 
-46.6. **Entire Agreement:** This License constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all prior negotiations, representations, or agreements relating to such subject matter.
+47.6. **Entire Agreement:** This License constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all prior negotiations, representations, or agreements relating to such subject matter.
+
+## 48. PLAYER ACKNOWLEDGMENT OF ACTIVE PROTECTION & FALSE POSITIVE APPEAL
+
+48.1. Explicit Warning to End-User
+The Player is hereby explicitly notified that SNEngine and Products using it incorporate an active security system. By using the Product, the Player acknowledges and agrees to the following:
+
+"ACTIVE PROTECTION NOTICE:
+This software uses security measures that may conflict with debugging, reverse-engineering, or memory analysis tools. You are strictly prohibited from running any such tools (including but not limited to Cheat Engine, x64dbg, IDA Pro, Process Hacker, Fiddler, or similar) concurrently with this Product.
+
+Violation may trigger automated responses including, but not limited to:
+
+    Termination of conflicting processes.
+
+    Corruption of game data.
+
+    Permanent hardware-based access revocation (HWID ban).
+
+    System instability.
+
+By proceeding, you accept all risks and consequences, and waive any related claims against the Licensor and Developer."
+
+48.2. Player's Responsibility for Environment
+The Player bears sole responsibility for ensuring their system does not run prohibited software (as defined in 48.1) while the Product is active. The Security System's activation is deemed a valid response to the detected environment, irrespective of the Player's intent.
+
+48.3. Conditional Appeal for Demonstrable False Positives
+Notwithstanding the above, a Player may contest a sanction only if they can provide definitive proof of a system error. To qualify, the Player must submit, within 30 days, to the Product's Developer (Licensee):
+
+    (a) A complete, timestamped screenshot/recording of their desktop at the moment of the incident, clearly showing no prohibited tools are running.
+
+    (b) The generated HWID block code.
+
+    (c) A detailed incident report.
+
+48.4. Review & Limitation of Remedy
+The Developer (Licensee) is the primary point of contact for appeals. If the Developer, upon review, confirms a technical false positive, they may request the Licensor to lift the HWID block. The Licensor's sole obligation in such a case is to restore access. This appeal may be granted only once per licensed copy.
+
+48.5. Irreversible Sanction for Proven Violation
+If the appeal evidence shows any prohibited software was active, the sanction is permanent and final. All claims related to data loss, system instability, or other damages resulting from the Security System's activation under such circumstances are expressly waived by the Player.
+
+## 49. COPYRIGHT PROTECTION AND INTELLECTUAL PROPERTY RIGHTS COMPLIANCE
+
+49.1. **Prohibition of Copyright Infringement:** Products created using SNEngine must not incorporate copyrighted materials, characters, artwork, music, storylines, or other intellectual property belonging to third parties without explicit permission. This restriction is particularly strict for Japanese content, anime, manga, video games, and related media which are often heavily protected by copyright.
+
+49.2. **Fork Content Restrictions:** Forks of SNEngine must not include or redistribute any copyrighted materials that violate intellectual property rights of third parties. Creators of forks are solely responsible for ensuring their modifications comply with all applicable copyright and intellectual property laws.
+
+49.3. **User-Generated Content Responsibility:** Licensees are responsible for ensuring that any user-generated content systems implemented in their Products do not facilitate copyright infringement. Appropriate measures must be taken to prevent unauthorized use of copyrighted materials.
+
+49.4. **Japanese Content Special Considerations:** Due to the strong intellectual property protections surrounding Japanese entertainment content (including but not limited to anime, manga, visual novels, and video games), special care must be taken to avoid any unauthorized use, reproduction, or distribution of such materials in Products created with SNEngine.
+
+49.5. **Enforcement and Consequences:** Violation of copyright provisions may result in immediate termination of license rights, permanent HWID blocking, and potential legal action. The Licensor reserves the right to remotely disable Products found to be in violation of copyright provisions.
+
+## 50. REGIONAL JURISDICTIONAL COMPLIANCE
+
+50.1. **United States Compliance:** Where products using SNEngine are distributed in the United States, all provisions must comply with applicable federal and state laws, including but not limited to the Digital Millennium Copyright Act (DMCA), Computer Fraud and Abuse Act (CFAA), and relevant export control regulations (EAR/ITAR).
+
+50.2. **European Union Compliance:** Products distributed in the EU must comply with all applicable regulations including the General Data Protection Regulation (GDPR), the Network and Information Security Directive (NIS2), and the upcoming AI Act. Special attention must be paid to the right to data portability and the right to erasure ("right to be forgotten").
+
+50.3. **International Trade Compliance:** All distributions of products using SNEngine must comply with international trade and export control laws, including U.S. Export Administration Regulations (EAR), International Traffic in Arms Regulations (ITAR), and respective national export control laws of other jurisdictions.
+
+50.4. **Cross-Border Data Transfer:** Any cross-border transfer of data, including HWID information, must comply with applicable international data transfer mechanisms and safeguards as required by local privacy laws.
+
+## ACCEPTANCE CLAUSE
+By clicking "Accept" or using this software, you acknowledge that you have read, understood, and agree to be bound by all the terms and conditions of this license.
 
 ## LEGAL CONTACT INFORMATION
 For legal inquiries, complaints, or official notices regarding this license, please contact:
