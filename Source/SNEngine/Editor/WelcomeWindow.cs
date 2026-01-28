@@ -112,6 +112,43 @@ namespace SNEngine.Editor
             if (GUILayout.Button("Setup SNEngine", buttonStyle))
             {
                 PerformFullSetup();
+
+                // Check if license agreement has been accepted before
+                if (!HasLicenseBeenAccepted())
+                {
+                    // Launch the launcher in fullscreen mode after setup if license hasn't been accepted
+                    int exitCode = SNELauncher.LaunchFullscreen();
+
+                    // If the launcher exited with code 1 (license not accepted), show it again
+                    while (exitCode == 1)
+                    {
+                        // Keep showing the launcher until the user accepts the license
+                        exitCode = SNELauncher.LaunchFullscreen();
+
+                        if (exitCode == 0)
+                        {
+                            // License was accepted, break the loop
+                            break;
+                        }
+                        else if (exitCode != 1)
+                        {
+                            // Some other error occurred, break the loop
+                            UnityEngine.Debug.LogError($"SNE_Launcher exited with code: {exitCode}");
+                            break;
+                        }
+                    }
+                }
+                else
+                {
+                    // If license was already accepted, just log a message
+                    UnityEngine.Debug.Log("SNEngine setup completed! License agreement has already been accepted previously. Skipping launcher launch.");
+                }
+            }
+
+            // Add a button to reset license status
+            if (GUILayout.Button("Reset License Status", buttonStyle))
+            {
+                ResetLicenseStatus();
             }
 
             GUILayout.BeginHorizontal(EditorStyles.helpBox);
@@ -223,6 +260,41 @@ namespace SNEngine.Editor
         {
             return Type.GetType("TMPro.TMP_Text, Unity.TextMeshPro") != null ||
                    Type.GetType("TMPro.TextMeshProUGUI, Unity.TextMeshPro") != null;
+        }
+
+        // Check if license agreement has been accepted
+        private bool HasLicenseBeenAccepted()
+        {
+            // In a real implementation, this would check the same storage mechanism
+            // that the C++ launcher uses to determine if the license was accepted.
+            // For now, we'll implement a basic check
+
+            // This is a simplified version - in a real implementation you would check
+            // the same registry/file location that the C++ launcher writes to when
+            // the user accepts the license agreement
+            string productName = string.IsNullOrEmpty(PlayerSettings.productName) ? "default_game" : PlayerSettings.productName;
+            string companyName = PlayerSettings.companyName;
+
+            // Create a unique identifier for this game
+            string gameIdentifier = string.IsNullOrEmpty(companyName) ? productName : $"{companyName}.{productName}";
+
+            // For now, we'll just check if a specific PlayerPrefs key exists
+            // In reality, this should check the same storage as the C++ launcher
+            return EditorPrefs.GetBool($"SNE_LicenseAccepted_{gameIdentifier}", false);
+        }
+
+        // Method to reset the license acceptance status
+        public static void ResetLicenseStatus()
+        {
+            string productName = string.IsNullOrEmpty(PlayerSettings.productName) ? "default_game" : PlayerSettings.productName;
+            string companyName = PlayerSettings.companyName;
+
+            // Create a unique identifier for this game
+            string gameIdentifier = string.IsNullOrEmpty(companyName) ? productName : $"{companyName}.{productName}";
+
+            // Delete the key that indicates the license was accepted
+            EditorPrefs.DeleteKey($"SNE_LicenseAccepted_{gameIdentifier}");
+            UnityEngine.Debug.Log($"License acceptance status reset for: {gameIdentifier}");
         }
     }
 }
